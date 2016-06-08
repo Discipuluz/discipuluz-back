@@ -1,0 +1,6 @@
+local.json
+*.log
+*.cache
+*.pyc
+*.pyd
+*.pyo
