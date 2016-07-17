@@ -1,5 +1,12 @@
 {
     "server": {
         "port": 8888
+    },
+    "mail":{
+      "host": "br548.hostgator.com.br",
+      "port": 465,
+      "tls": true,
+      "username": "equipe@discipuluz.com",
+      "password": "discipuluz"
     }
 }
