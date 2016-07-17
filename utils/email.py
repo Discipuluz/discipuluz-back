@@ -15,7 +15,7 @@ def send(req, subject, message=''):
             to_addrs=req.to,
             subject=subject,
             message=message,
-            mime=content_type,  # optional. default=text/plain
+            mime='html',  # optional. default=text/plain
             charset="utf-8")    # optional. default=utf-8
 
     try:
