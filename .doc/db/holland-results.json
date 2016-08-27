@@ -1,0 +1,20 @@
+{
+	"name": "String",
+	"email": "String",
+	"school": {
+		"name": "String",
+		"year": "String"
+	},
+	"structures": {
+		"R": "Number",
+		"I": "Number",
+		"A": "Number",
+		"S": "Number",
+		"E": "Number",
+		"C": "Number"
+	},
+	"feedback": {
+		"comment": "String",
+		"score": "String"
+	}
+}
