@@ -59,7 +59,7 @@ Back End usado para o site e o bot da discipuluz!
 
 ---
 
-### EXECUÇÃO
+## EXECUÇÃO
 
 Execute `pypolyback` pelo terminal na pasta raizdo seu projeto
 
