@@ -1,0 +1,22 @@
+{
+	"name": ["String"],
+	"description": "String",
+	"universities": [{
+		"id": "ObjectId",
+		"score": "Number"
+	}],
+	"area": "in('exatas', 'humanas', 'biológicas')",
+	"extra": {
+		"posts": [{
+			"title": "String",
+			"description": "String",
+			"url": "String"
+		}],
+		"videos": ["String"],
+		"briefs": [{
+			"title": "String",
+			"description": "String",
+			"url": "String"
+		}]
+	}
+}

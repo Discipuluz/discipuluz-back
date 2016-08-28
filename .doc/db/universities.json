@@ -1,0 +1,10 @@
+{
+	"name": ["String"],
+	"campus": "String",
+	"description": "String",
+	"location": {
+		"latitude": "Number",
+		"longitude": "Number"
+	},
+	"public": "Boolean"
+}
