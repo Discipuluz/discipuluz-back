@@ -9,6 +9,7 @@ def insert(api, collection, record):
     record['_datetime'] = datetime.datetime.now()
     record['_isRemoved'] = False
     result_id = api.vars['db'][collection].insert(record)
+    print result_id
     return result_id
 
 def select(api, collection, by = {}):

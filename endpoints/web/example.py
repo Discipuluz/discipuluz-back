@@ -5,7 +5,8 @@ from pypolyback import async
 
 utils = [
     'mysql',
-    'mongodb'
+    'mongodb',
+    'json'
 ]
 
 def get(req, api):
@@ -17,25 +18,8 @@ def get(req, api):
     Output:
         string
     """
-    #api.mysql.insert(api, 'Contacts', {'name':'test', 'email':'test@email.com', 'comment':"Eu amo catiorineos"})
-    #result = yield api.mysql.select(api, 'Jung_Questions', ['id', 'orderId'], {'id':'30', 'orderId':'1'})
-    #api.debug(result)
-
-    course = {
-        'name' : ['Ciencia de Computacao'],
-        "description" : 'nao eh engenharia'
-    }
-
-    where = {
-        "name": "Ciencia de Computacao"
-    }
-
-    update = {
-        "description": "queria ser engenheiro"
-    }
-
-    result = api.mongodb.insert(api, 'courses', course)
-
+    result = api.json.read('test')
+    
     req.send({
         'resultados': str(result)
     }) #retornando os dados

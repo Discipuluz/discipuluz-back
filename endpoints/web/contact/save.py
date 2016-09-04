@@ -1,5 +1,5 @@
 utils = [
-    'mysql'
+    'mongodb'
 ]
 
 def post(req, api):
@@ -16,6 +16,9 @@ def post(req, api):
             error: boolean
             message: string
     """
+
+    print req.params
+
     name = req.params['name']
     email = req.params['email']
     comment = req.params['comment']
@@ -24,7 +27,7 @@ def post(req, api):
     error = None
 
     try:
-        index = api.mysql.insert(api, 'Contacts', {
+        index = api.mongodb.insert(api, 'Contacts', {
             'name': name,
             'email': email,
             'comment': comment
@@ -39,5 +42,5 @@ def post(req, api):
     else:
         req.send({
             'error': True,
-            'message': error
+            'message': str(error)
         })
