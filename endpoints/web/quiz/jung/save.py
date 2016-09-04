@@ -19,7 +19,7 @@ def post(req, api):
     answers = req.params['answers']
 
     pos = 0
-    results = [0 for x in range(8)];
+    results = [0 for x in range(8)]
     string_result = ''
     
     for i in range(0, 4):
