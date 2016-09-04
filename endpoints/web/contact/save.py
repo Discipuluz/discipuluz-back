@@ -16,9 +16,7 @@ def post(req, api):
             error: boolean
             message: string
     """
-
-    print req.params
-
+    
     name = req.params['name']
     email = req.params['email']
     comment = req.params['comment']
