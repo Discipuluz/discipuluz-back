@@ -12,6 +12,7 @@ def post(req, api):
     Output:
           response:
             error: boolean
+            session: string
             message: string
     """
 
@@ -47,7 +48,7 @@ def post(req, api):
     if index:
         req.send({
             'error': False,
-            'session': str(index)
+            'session': str(session)
         })
     else:
         req.send({

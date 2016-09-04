@@ -1,4 +1,5 @@
 from pymongo import MongoClient
+from bson.objectid import ObjectId
 import datetime
 
 def init(api):
@@ -29,3 +30,6 @@ def remove(api, collection, where):
             'isRemoved': True
         })
     return result
+
+def toObjectId(id):
+    return ObjectId(id)
