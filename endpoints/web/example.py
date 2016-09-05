@@ -18,7 +18,7 @@ def get(req, api):
     Output:
         string
     """
-    result = api.json.read('test')
+    result = api.json.read('jung')
     
     req.send({
         'resultados': str(result)
