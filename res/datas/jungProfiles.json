@@ -1,0 +1,217 @@
+{
+	"profiles": [
+		{
+			"initials": "ENFJ",
+			"meaning": "Extrovertido, intuitivo, emotivo, analítico",
+			"title": "Liderança",
+			"key_words": "O especialista em relações humanas.",
+			"text": "Você quer usar sua energia para produzir.  Desenvolve as capacidades de organização e de decisão, com facilidade quanto a estabelecer relações pessoais.
+Por ser carismático, atraindo inclusive seguidores, caracteriza-se pela capacidade de liderança. Tende a  impor a si mesmo a responsabilidade pelos sentimentos dos que o procuram, tornando-se para estes, uma fonte de apoio e de sustentação.
+Dono de alto grau de autoconfiança, surpreende-se ao não ser compreendido pelos demais. Tolerante, com linguagem fluente ao expressar seus sentimentos, aparenta, no entanto, esperar  das pessoas atitudes semelhantes às suas.
+Devido à empatia e capacidade de compreensão, é hábil em interpretações, raramente cometendo equívocos sobre as motivações das outras pessoas, sejam elas aparentes ou não. Isto se deve, principalmente, ao fato de seguir suas intuições que são muito desenvolvidas.
+Seu objetivo maior é encontrar o relacionamento perfeito, mas nunca chega a realizá-lo, pois a realidade nunca o satisfaz plenamente. É, no entanto, excelente companheiro, caracterizando-se por ser mestre da palavra e pelo relacionamento pessoal que promove.",
+			"str_points": "Tem espírito de liderança. Respeita opiniões.  Gosta de cooperar. É um bom mediador nas discussões. É decidido e organizado.",
+			"weak_points": "Idealiza as pessoas. Tende a tomar decisões apressadamente. Entende as críticas como ataque pessoal. Pode apresentar problemas em lidar com conflitos.  Isto acontece porque o Sentimento sempre vê o lado mais positivo das pessoas, a intuição busca informações além das fornecidas concretamente e seu espírito analítico tem muito forte suas convicções, que projeta serem tão fortes nos que atraem sua atenção quanto para você."
+		},
+		{
+			"initials": "ENFP",
+			"meaning": "Extrovertido, intuitivo, emotivo, perspicaz",
+			"title": "Influência",
+			"key_words": "Tudo é possível.",
+			"text": "Você usa a inspiração. Prefere trabalhar com um grupo variado de pessoas, com entusiasmo e criatividade. Tem ideias, bola produtos e serviços. Seu trabalho precisa ser desafiador.
+Tudo o que ocorre tem para você um significado, já que possui agudo senso para perceber as motivações alheias.  Causa, por este motivo, muita influência nos que lhe estão próximos.
+Como anseia por autenticidade e revela esta necessidade aos demais, atrai todos aqueles que partilham do mesmo sentimento e do mesmo anseio. Toda a experiência emocional deve necessariamente ser intensa, pois é vital; no entanto, quando a vivencia, sente-se sobremaneira inquieto e angustiado, pois lhe parece que uma parte de si mesmo permanece alienada deste sentimento.
+Observador agudo e penetrante, procura sempre o significado oculto das mensagens que recebe e, por vezes, comete erros em seus julgamentos, devido à tendência de enfatizar e confirmar suas observações.
+No trabalho, em geral é hiper alerta, sendo entusiasta em relação ao sentimento que experimenta no momento e capaz de desfrutar intensamente o processo de criação de algo.  Por isso cativa facilmente as pessoas no ambiente de trabalho, motivando-as.  Pode aborrecer-se, porém, quando as pessoas ou as situações mostram-se repetitivas.
+Orgulhoso, independente, otimista, não aceita subordinar-se aos demais e tampouco deseja que os outros se submetam a você. Por ser notável em manter a união das pessoas, é visto como companhia agradável.
+Extremamente imaginativo, torna-se difícil continuar algo já iniciado por outra pessoa, pois está sempre à procura do novo, e o devir (= o que virá a ser) é sempre mais fascinante que as atividades reais do momento. Não se inclina a profissões que exigem rotina e obediência a regras determinadas, pois prefere aquelas que envolvam contatos pessoais e percepção do meio ambiente.",
+			"str_points": "É criativo. Resolve problemas com facilidade. Trabalha bem em grupo.  Sabe combinar talentos e habilidades.  Persegue interesses. Possui um entusiasmo contagiante.",
+			"weak_points": "Em geral pode ser desorganizado e apresentar dificuldade em lidar com detalhes e estabelecer prioridades. Não gosta de rotina. Perde a concentração com facilidade."
+		},
+		{
+			"initials": "ENTJ",
+			"meaning": "Extrovertido, intuitivo, racional, analítico",
+			"title": "Comando",
+			"key_words": "Foco, organização e dedicação.",
+			"text": "Você quer aperfeiçoar o modo como as coisas são feitas, planejar, resolver problemas de maneira criativa e produzir soluções lógicas.  O ambiente deve ser organizado e todos devem obedecer a regras claras.  Você precisa de desafios.
+O impulso fundamental que o orienta é o de comandar e o de estruturar todos os locais onde atua. Embora extrovertido, objetivo e intuitivo, inclina-se para o pensamento empírico, considerando que qualquer tarefa precisa de um motivo ou justificativa.  Por essa razão, preocupa-se com os fins e com a política geral da empresa e, quando numa posição de comando, mostra-se hábil para visualizar os objetivos estabelecidos e para comunicá-los aos demais.
+É, por natureza, o construtor de organizações, desde que possa direcioná-las, pois lhe é difícil acatar ordens de outras pessoas.  Embora tolerante a procedimentos preestabelecidos, pode facilmente abandoná-los quando os julga ineficientes, uma vez que valoriza a competência e não admite a repetição de erros.  Em geral, utiliza dados impessoais para tomar decisões.  Raramente se deixa influenciar por aspectos emocionais.
+Por dedicar-se quase que exclusivamente ao trabalho, os demais setores de sua vida são muitas vezes deixados em segundo plano.  Aprecia ser executivo e normalmente assume posições de comando e de responsabilidade junto à empresa onde trabalha.",
+			"str_points": "Bom líder. Ambicioso, trabalhador, honesto e direto. Pensa de modo claro e lógico. Sabe solucionar problemas complexos usando a criatividade.",
+			"weak_points": "Pode tornar-se crítico e arrogante, colocando o trabalho como a coisa mais importante. Tende a esquecer detalhes importantes devido à sua extrema praticidade."
+		},
+		{
+			"initials": "ENTP",
+			"meaning": "Extrovertido, intuitivo, racional, perspicaz",
+			"title": "Praticidade e agilidade.",
+			"key_words": "O empreendedor.",
+			"text": "Você quer criar projetos e colocá-los em prática, sem se preocupar com pequenos detalhes. Suas tarefas precisam ser divertidas e cheias de ação. Você gosta de conviver com pessoas influentes e inteligentes.
+Necessita constantemente exercitar sua destreza no âmbito das ideias, da realidade concreta ou das pessoas. Extremamente intuitivo, trabalha bem com relações entre fatos e conceitos. Por ter facilidade em análises, principalmente em análises funcionais, mantém-se alerta às possibilidades existentes numa dada situação; como decorrência, tudo ao seu redor lhe interessa e seu entusiasmo contagia os demais.
+Por estar sempre engendrando meios de melhor realizar o trabalho, reluta em aceitar os moldes já determinados e ignora a autoridade tradicional e os procedimentos padrões tomados pela maioria das pessoas.  A impossibilidade aparente do cumprimento de determinada tarefa constitui o seu maior desafio.
+Para este perfil, o valor das ideias consiste apenas na viabilização concreta das mesmas, sendo um projeto sempre encarado como um meio, pois o fim almejado é a eficácia da invenção.
+Inconformista ao extremo, desafia constantemente o sistema: é capaz de manter sozinho uma dada situação, sem contar com a autorização de ninguém. No entanto, é hábil nas mais complexas verbalizações, sendo considerado um fascinante interlocutor.",
+			"str_points": "Tem facilidade para improvisar. Trabalha muito bem em projetos desafiadores. Faz análises racionais. É confiante e versátil.",
+			"weak_points": "Perde o interesse facilmente se desafios não são contínuos e não gosta de trabalhar em esquemas preestabelecidos. Em determinadas situações pode chegar a não respeitar o talento dos outros – sendo este ponto de desenvolvimento vital para uma liderança positiva."
+		},
+		{
+			"initials": "ESFJ",
+			"meaning": "Extrovertido, perceptivo, emotivo, analítico",
+			"title": "O colaborador",
+			"key_words": "Interação social, dedicação e responsabilidade.",
+			"text": "Você quer se relacionar com outras pessoas e cultivar a amizade entre os colegas. Precisa conhecer bem as tarefas e prefere trabalhar em um ambiente onde todos cooperem.  Gosta de tomar decisões e de supervisionar projetos.
+É o mais sociável de todos os perfis psicológicos. Energiza-se com a interação que promove com os demais.  Onde quer que esteja, promove harmonia e conciliação, proporcionando com sua presença um ambiente acolhedor.
+Devido às suas características, é geralmente muito apreciado por seus superiores, pois respeita as regras, o dever e o cumprimento das tarefas que lhe são confiadas.
+Prefere lidar com aspectos concretos, inquietando-se com situações complexas que necessitem de análises abstratas de princípios.
+Por ser prestativo e atento àqueles que necessitam de sua ajuda, a solidão causa-lhe sempre ansiedade e inquietação.  Magoa-se com a indiferença, afinal está sempre atento às necessidades e estados de humor de todos; portanto, quando sente não receber um retorno na atenção dos outros, decepciona-se e pode ficar ressentido. Geralmente alegre e bem humorado, pode, entretanto, tornar-se deprimido quando se culpa por algo que julgue não ter percebido, ou que ache que poderia fazer melhor e não fez.
+Quando admira e respeita muito uma pessoa, em geral alguém que seja uma autoridade em relação a algum conhecimento ou poder hierárquico, tende a espelhar-se nestes ícones como norteadores de suas opiniões, posicionamentos e atitudes.",
+			"str_points": "Trabalha duro, produz muito e é fiel ao emprego.  Tem boa memória. Segue regras e se adapta perfeitamente à rotina já estabelecida.",
+			"weak_points": "É sensível a críticas e fica estressado com situações tensas em que não consiga exercer sua capacidade de conciliação. Prefere tomar decisões rápidas, muitas vezes sem considerar todas as opções ou ponderações possíveis. Pode demonstrar-se rígido ou um pouco teimoso quando não é convencido por algo que o faça mudar de ideia, ou caso não admire a pessoa que está argumentando sobre a mudança."
+		},
+		{
+			"initials": "ESFP",
+			"meaning": "Extrovertido, perceptivo, emotivo, perspicaz",
+			"title": "O que adora o que faz.",
+			"key_words": "Criatividade, diversidade, interação social.",
+			"text": "Você gosta de aprender e procurar soluções. Envolve-se com as tarefas que executa.
+Quer trabalhar com pessoas variadas, divertidas e espontâneas, em vários projetos ao mesmo tempo.
+Alegre e animado, transmite a todos seu otimismo, calor e alegria de viver. Extremamente generoso, é capaz de amar e ter  amizades sem esperar recompensas.  Pode apresentar-se impulsivo nas suas atitudes ou muitas vezes imprevisível em suas reações.  Geralmente fica muito alerta aos acontecimentos, devido à sua extrema praticidade e atenção aos eventos simultâneos.
+Prefere não ficar sozinho, pois necessita dos outros para comunicar-se e sente-se bem quando acompanhado ou cercado de pessoas.  Evita ao máximo situações de conflitos ou tensões interpessoais, afastando-se delas sempre que possível, afinal possui um temperamento conciliador e não lida bem com desentendimentos que não consegue resolver ou mediar. Sua habilidade para compreender as relações interpessoais resulta em um inegável talento para trabalhar com pessoas em situações de crise, devido à sensibilidade que possui e à capacidade de antever soluções, muitas vezes imperceptíveis para os outros. Apresenta igualmente talento para soluções criativas e desapego às normas e costumes estabelecidos.
+Profissionalmente inclina-se para tarefas ativas compartilhadas com outras pessoas, nunca solitárias.",
+			"str_points": "É prático e realista. Gosta de agito e adapta-se facilmente a mudanças. Comunica-se bem e cria uma atmosfera cheia de energia.",
+			"weak_points": "Não gosta de planejar muito o futuro ou pensar nas consequências de suas ações. Pode ser impulsivo e distraído."
+		},
+		{
+			"initials": "ESTJ",
+			"meaning": "Extrovertido, perceptivo, racional, analítico",
+			"title": "Decisão e Responsabilidade",
+			"key_words": "Organização, análise, foco.",
+			"text": "Você gosta de organizar e de chegar a conclusões lógicas. Prefere tarefas realistas e concretas. Você quer tomar decisões e ter responsabilidades. Cumpre prazos e aceita regras. Em seu trabalho precisa sentir-se produtivo e ter sua experiência respeitada.
+Por ser naturalmente responsável no desempenho das tarefas que lhe são confiadas e por ser este o seu supremo princípio pessoal, sente-se gratificado em atividades devidamente planejadas e definidas.  Por esta razão, mostra-se muito competente quanto à implantação de regras e procedimentos.
+Executa seu trabalho com eficiência.  Ciente de seu dever, desagrada-lhe o não cumprimento das normas estabelecidas e nunca demonstra insegurança em seus comportamentos ou em suas decisões. Portanto, quando ocupa funções de comando, os subordinados sem a mesma adesão à responsabilidade julgam-no até insensível.
+Realista, extremamente claro nas comunicações e pontual, exige o mesmo dos outros, sem constranger-se no tocante à avaliação dos procedimentos seguidos.  Principalmente quando exerce cargos de autoridade, pode mostrar-se impaciente para ouvir pontos de vista alheios que não combinam com os seus (esta característica será tão acentuada quanto o for sua função racional).",
+			"str_points": "É prático e mantém o foco nos resultados.  Decide com objetividade. É dedicado aos compromissos e severo quando necessário.",
+			"weak_points": "Pode demonstrar elevada impaciência, interessando-se apenas por possibilidades concretas e pode parecer rude quando confrontado com argumentações que lhe parecerem ilógicas."
+		},
+		{
+			"initials": "ESTP",
+			"meaning": "Extrovertido, perceptivo, racional, perspicaz",
+			"title": "O motivador do grupo",
+			"key_words": "Desafios, dedução lógica, persuasão.",
+			"text": "Você quer interagir com outras pessoas. Gosta de usar lógica, capacidade de observação e memória. Analisa todas as possibilidades, mas sem seguir regras. Gosta de correr riscos. Sabe negociar. É divertido e dá valor ao lazer depois do dever.
+Essencialmente empreendedor, sente compulsão para modificar e para reestruturar continuamente o ambiente que o cerca. Extremamente observador dos detalhes relacionados às pessoas e às situações de vida, demonstra grande sensibilidade para captar as motivações dos demais e os aspectos não verbais da comunicação. Realista, prático, alegre e popular, vive o momento presente e alcança êxito em quase todos os empreendimentos a que se dedica.
+Incomoda-se com qualquer forma de tensão interpessoal, pois geralmente apresenta pouca tolerância à ansiedade e a questionamentos relativos aos problemas futuros, os quais tenta resolver o mais rapidamente possível.
+Tende a evitar situações constrangedoras e muitas vezes é considerado superficial nos seus relacionamentos pessoais, devido à sua de escolha de não se posicionar para não causar conflitos – muitas vezes passando uma ideia errônea sobre sua posição e opinião sobre as coisas, dando a impressão de não se importar ou não perceber as situações.  Dado que isso não reflete a verdade que sente interiormente, é importante cuidar deste desenvolvimento na comunicação afetiva para evitar muitos problemas que podem atrapalhar sua vida.",
+			"str_points": "Consegue perceber o que precisa ser feito e como.  Gosta de negociar, promover e vender. É muito adaptável a novos ambientes e novas situações.",
+			"weak_points": "Pode não pensar nas consequências do seu trabalho e nos sentimentos dos outros. Pode apresentar dificuldade para trabalhar com regras e prazos."
+		},
+		{
+			"initials": "INFJ",
+			"meaning": "Introvertido, intuitivo, emotivo, analítico",
+			"title": "O inovador",
+			"key_words": "Autonomia, interação e criatividade.",
+			"text": "Você quer criar soluções e se orgulhar do que faz. Seu trabalho deve ter sua assinatura e os resultados têm que ser claros. Você gosta de trabalhar com pessoas e suas funções precisam estar de acordo com seus valores, ou seja, acreditar no que está fazendo é fundamental para sua realização pessoal.
+Sendo a intuição a base deste perfil, caracteriza-se pela empatia (= capacidade de compreender o que a outra pessoa sente).  É capaz de captar as emoções, as intenções e os sentimentos alheios antes que estes sejam percebidos nitidamente em suas nuances pela maioria.
+ Extremamente consciente de seu trabalho, apresenta tendência para um perfeccionismo exagerado quando muito envolvido no trabalho, ou seja, quando se torna essencial alguma realização ou objetivo a ser atingido.  Muito sensível a conflitos interpessoais e a críticas alheias, sente-se deslocado e paralisado ao enfrentar ambientes hostis, podendo inclusive sentir-se desmotivado e infeliz nestas situações.",
+			"str_points": "Pensa em soluções criativas. Entende conceitos difíceis. Cria harmonia. Usa a persuasão como instrumento de liderança.  Gosta de promover o desenvolvimento dos colegas.",
+			"weak_points": "Pode demonstrar falta de flexibilidade e dificuldade para colocar ideias em prática, afinal a intuição lhe dá o impulso e muitas vezes isso vem intensamente, sendo difícil canalizar para a realização destas ideias ou manter o foco e a motivação em um único tema ou tarefa após um período de tempo."
+		},
+		{
+			"initials": "INFP",
+			"meaning": "Introvertido, intuitivo, emotivo, perspicaz",
+			"title": "O que se entrega",
+			"key_words": "Idealismo, energia e interação.",
+			"text": "Você quer expressar seus pontos de vista e valores por meio do trabalho e ter controle sobre o processo e o produto final. Precisa de estímulo. Não gosta de apresentar seus resultados antes que estejam completos.
+Extremamente idealista, é capaz de dedicar-se a grandes causas.  Para entendê-lo é necessário compreender primeiro a causa que abraça, já que por ela não mede sacrifícios.
+Dono de profundo senso de honra e dignidade humana, sua vida é orientada segundo os valores nos quais acredita e não segundo a lógica dos fatos. Geralmente paciente em situações complexas, não gosta dos detalhes rotineiros nas funções sob sua responsabilidade.
+Suas impressões sobre os fatos e situações são enriquecedoras. Emprega metáforas constantemente e possui o dom de criar e interpretar símbolos.
+Valoriza a harmonia - podendo ceder para evitar conflitos.  Ao mesmo tempo, sente-se constantemente desgastado pelas relações: sempre espera o melhor das pessoas e quando a realidade se apresenta percebe sucessivamente que ela não condiz com o que projetara.  Esperar o melhor das pessoas e sentir sempre a decepção são pontos importantes para seu desenvolvimento.
+Profissionalmente, adapta-se a novas ideias e trabalha bem tanto sozinho quanto com outras pessoas. Os negócios ou profissões que exigem rotina e competição pelo poder não costumam atraí-lo.",
+			"str_points": "Prefere trabalhar em causas nas quais acredita. Não abandona suas obrigações. Comunica-se bem.",
+			"weak_points": "Pode apresentar dificuldade para planejar, perdendo facilmente o interesse se não acreditar no objetivo do trabalho. É teimoso: para ser convencido a outra parte precisa argumentar muito bem."
+		},
+		{
+			"initials": "INTJ",
+			"meaning": "Introvertido, intuitivo, racional, analítico",
+			"title": "Lógica",
+			"key_words": "Competência + independência = perfeição.",
+			"text": "Você quer criar soluções originais e melhorar o funcionamento das coisas. Dirige sua energia para colocar ideias em prática, de modo lógico e num ambiente em que sua perseverança seja recompensada.
+Confiante e rápido em decisões, seu desejo é o uso adequado e positivo dos eventos ou dos potenciais das pessoas.  Vive numa realidade introspectiva, enfatizando as possibilidades dos diversos acontecimentos. Seu pensamento organiza-se de forma lógica e empírica e, por este motivo, é basicamente o aplicador de modelos teóricos.
+Indiferente à autoridade baseada em títulos ou posições, o que realmente lhe importa em relação a uma ideia ou a um propósito é se estes fazem sentido ou não.  Intuitivo, porém pragmático, a realidade chega a parecer arbitrária: tanto pode ser utilizada para atingir certos objetivos, como pode ser ignorada, pois encara-a como uma oportunidade para testar suas ideias. Para você são suas ideias que confirmam a realidade e não vice-versa.
+Os desafios lhe são muito estimulantes, por este motivo não se abate frente às dificuldades, mas considera-as como motivo para criatividade e para novas especulações.
+Embora muito sensível, raramente expressa suas emoções.  Por este motivo, muitos o consideram indiferente, ou até mesmo insensível em alguns casos.
+No trabalho que desenvolve, assume geralmente posições de extrema responsabilidade, pois é eficiente e dedicado, embora apresente uma forte necessidade de privacidade. É notável na pesquisa, em projetos ou em posições de comando, ou em qualquer tipo de trabalho onde possa construir e modificar o ambiente que o cerca.",
+			"str_points": "Criativo, gosta de desafios intelectuais. Consegue entender questões complexas. Trabalha bem sozinho.",
+			"weak_points": "Desinteressa-se por projetos que não o desafiam.  As pessoas o vêem uma pessoa independente e teimosa, devido à somatória das características introvertida e racional – pois só faz o que acredita (introvertido) e tem que achar uma lógica em tudo o que o cerca (racional)."
+		},
+		{
+			"initials": "INTP",
+			"meaning": "Introvertido, intuitivo, racional, perspicaz",
+			"title": "Para tudo há uma saída",
+			"key_words": "Praticidade, lógica, precisão, independência.",
+			"text": "Você gosta de trabalhos que necessitem de processos criativos, teóricos e lógicos. Quer colocar em prática soluções arriscadas. Você precisa de independência e concentração. Gosta de trabalhar em um grupo pequeno.
+A precisão do pensamento e da linguagem são suas características básicas.  A força motriz que o impulsiona é a busca contínua de desvendar o universo de conceitos na área de conhecimento que lhe fizer sentido.
+Possui grande capacidade para concentrar-se e para selecionar o que é relevante e pertinente ao assunto em questão, detectando facilmente as contradições existentes nas afirmações - pois,  para você, a lógica é a coerência interna de um assunto.
+Por apreciar tanto a inteligência, busca conhecimento por gostar e não por sentir-se obrigado, devido ao desejo insaciável de reunir ideias e princípios.  Tudo o que é aprendido fica-lhe sempre na memória. Para você, tudo existe para ser entendido e, portanto, requer explicações coerentes e precisas.
+Impacienta-se geralmente com os menos dotados intelectualmente, podendo levá-lo a parecer arrogante. Apresenta dificuldades para expressar suas emoções verbalmente, sendo geralmente tímido - exceto com os amigos íntimos.
+Adapta-se facilmente às diversas situações, desde que seus princípios não sejam violados.  Portanto, no aspecto profissional une-se a qualquer campo que envolva arquitetura de ideias.  Em qualquer profissão, trabalha melhor sozinho e quando não há interrupções.",
+			"str_points": "Analisa questões com profundidade. Gosta de novos conhecimentos e de aprender. Concentra-se facilmente.",
+			"weak_points": "Pouco realista. Perde o interesse nos detalhes. Pode demonstrar-se insensível aos outros, tornando-se muito crítico ou rígido frente a estas situações."
+		},
+		{
+			"initials": "ISFJ",
+			"meaning": "Introvertido, perceptivo, emotivo, analítico",
+			"title": "Meu nome é trabalho",
+			"key_words": "Dedicação, persistência, capacidade de realização.",
+			"text": "Você gosta de observar detalhes. Prefere  envolver-se com projetos concretos. Não se importa de trabalhar nos bastidores, mas quer que suas realizações sejam reconhecidas.  Segue normas e é prático nas decisões.
+Lida bem com rotinas e gosta de fazer um trabalho preciso.  Apresenta grande capacidade de concentração e consegue trabalhar por períodos sozinho.
+Extremamente sensível às necessidades das pessoas, este perfil encontra grande autorrealização ao dedicar-se a estas relações.   Tenta ao máximo evitar conflitos, pois sua natureza é prática e conciliadora; portanto, busca resolvê-los o mais rápido e com menos desgaste possível.
+Dono de extraordinário senso de responsabilidade, adapta-se mais facilmente a procedimentos estabelecidos do que a teorias ou a improvisações.  Costuma ser leal aos seus superiores, com os quais estabelece laços afetivos.
+Tende a assumir as responsabilidades para não precisar supervisionar o trabalho de outras pessoas.  Portanto, ao assumir cargos de gerência ou supervisão, precisa desenvolver formas de delegar funções para não se sobrecarregar – pois, devido a ser avesso a ter que emitir ordens, procura realizar o trabalho sozinho, mesmo que isto o sobrecarregue.",
+			"str_points": "Seu talento e responsabilidade para enfrentar tarefas rotineiras é uma de suas melhores características.  Tem um forte senso ético. É responsável e trabalha duro. É cuidadoso com detalhes. Respeita hierarquias.",
+			"weak_points": "Gosta de sentir-se em uma equipe cooperativa onde receba feedback de seu trabalho -  quando não encontrar estas características à sua volta, será necessário buscar a motivação internamente.  Muitas vezes teme não adaptar-se a novas situações  – é o perfil que menos gosta de imprevistos na vida."
+		},
+		{
+			"initials": "ISFP",
+			"meaning": "Introvertido, perceptivo, emotivo, perspicaz",
+			"title": "O que conta é a intenção",
+			"key_words": "Criatividade, independência e liberdade.",
+			"text": "Você quer resolver problemas de forma simples. Gosta de colaborar com outras pessoas, sem precisar seguir regras rígidas.
+Às vezes é avaliado como personalidade enigmática porque manifesta seus sentimentos mais por ações do que por palavras.  A gentileza, a gratidão, a cordialidade e o otimismo são-lhe sentimentos característicos.
+ Possui sensibilidade para reconhecer o valor estético, a espontaneidade, o senso do concreto e da oportunidade do momento.  Expressa-se, portanto, por canais indiretos, preferindo revelar-se por um meio artístico, como um quadro, uma sinfonia, uma metáfora.  Quando não encontra nenhuma forma plausível de expressão, abstém-se de fazê-la, aparentando estar alienado à realidade presente.  No entanto, subjacente à sua aparência suave, subsiste uma impulsividade e uma constante atenção ao aqui e agora.
+Não gosta de planejar nem tampouco de aguardar a ocorrência dos acontecimentos. Por isso, em situações de espera, tanto na situação profissional quanto pessoalmente, pode apresentar uma acentuada angústia ou irritabilidade quando o andamento do processo não depender de suas ações.
+Com inteligência voltada para o concreto, apresenta grande sensibilidade para captar as múltiplas vontades alheias, podendo aplicar esta habilidade em seu projeto de trabalho para um cliente.
+Embora as respeite, não suporta hierarquias de qualquer tipo, pois almeja a liberdade.  Muitas vezes é incompreendido, tornando-se um alvo onde os outros projetam seus temperamentos, seus valores e suas aversões.
+Profissionalmente, prefere tarefas relacionadas à arte e às áreas de comunicação e publicidade, ou então todos os trabalhos que envolvam relação com a natureza e que propiciem liberdade, autonomia,  criatividade e grande contato com pessoas.",
+			"str_points": "Gosta de ajudar as pessoas. Adapta-se bem a mudanças. Trabalha duro quando acredita no que faz. É leal e acata ordens.",
+			"weak_points": "Pode apresentar muita dificuldade para aceitar críticas e organizar bem o tempo. Sente-se esmagado pelas regras e pela burocracia."
+		},
+		{
+			"initials": "ISTJ",
+			"meaning": "Introvertido, perceptivo, racional, analítico",
+			"title": "Senso do dever",
+			"key_words": "Cada coisa no seu lugar",
+			"text": "Essencialmente prático e realista, a funcionalidade torna-se um aspecto indispensável ao desenvolvimento do trabalho.  Você gosta das áreas técnicas, onde o saber objetivo possa ser aplicado para resolver problemas. Quer estar envolvido com um produto real, feito de maneira racional e eficiente.  Quer ser independente e ter tempo para se concentrar. Os objetivos de seu trabalho precisam ser claros.
+Seus principais valores relacionam-se, em grande parte, à defesa das causas em que acredita.  É constante e discreto quanto à execução de seus deveres, o que torna tal dedicação muitas vezes natural aos olhos dos demais, à medida que se transforma num procedimento constante.  Você tem dificuldade em divulgar o sucesso de seu trabalho.
+Apresenta uma reação paradoxal: por um lado possui muita paciência quanto à exigência de determinados procedimentos que tenham a ver com assuntos de sua responsabilidade; por outro lado, reage com acentuada impaciência, irritabilidade e intolerância quando as outras pessoas envolvidas no trabalho não demonstram esta mesma responsabilidade.  Portanto, passa a imagem de conseguir aguentar muita pressão em determinadas situações e ao mesmo tempo estourar por outras menos complexas.
+	No ambiente de trabalho, pode sentir que algumas de suas atitudes são mal compreendidas e interpretadas, sobretudo por aqueles que são muito sentimentais, pouco objetivos e sensíveis às atitudes de comando.
+Quando a função Pensamento é acentuada, muitas vezes pode ser considerado frio e insensível pelos demais, pois seu julgamento sempre prevalecerá pela vertente lógica. No entanto, essa tendência para a objetividade e para a eficiência é somente um recurso que utiliza a fim de evitar tornar-se objeto de críticas e de repreensões.
+Cumprir e fazer cumprir as normas e as regras é uma prioridade em sua energia de trabalho.  A elevada cobrança que demonstra para os demais reflete um pouco da auto exigência diária que possui em relação a si mesmo.",
+			"str_points": "Lida bem com rotinas e faz um trabalho preciso. Tem um enorme poder de concentração e pode trabalhar sozinho.",
+			"weak_points": "Não gosta muito de mudanças sugeridas por outras pessoas, afinal sempre prima pela busca incessante da eficiência máxima em tudo o que faz.  Portanto, ao tentarem convencê-lo por outra ideia, sua primeira reação é resistir. Só aceita ideias novas se elas tiverem aplicações práticas e, acima de tudo, fizerem sentido para você. As pessoas dirão que você é teimoso... você responderá que o argumento apresentado não o convenceu e ainda possui o conceito ou convicção anterior."
+		},
+		{
+			"initials": "ISTP",
+			"meaning": "Introvertido, perceptivo, racional, perspicaz",
+			"title": "O que dá o melhor de si",
+			"key_words": "Destemido, arrojado, apetite por desafios.",
+			"text": "Você quer utilizar seus conhecimentos técnicos e lógicos e lidar com questões concretas. Suas tarefas precisam ter um objetivo claro. Você prefere trabalhar ao ar livre de modo independente, divertido e ativo.
+Muitas vezes impulsivo pode não avaliar as possíveis consequências, muitas vezes dedicando-se inteiramente à ação como um fim em si mesma.
+Ao ignorar frequentemente regulamentos, ordens autoritárias e regras estabelecidas, passa a ser, em geral, insubordinado, igualitário e fraternal, sendo, por essa razão, muito apreciado pelos demais.
+Necessita de liberdade para agir e estimula-se com o exótico, caracterizando-se pela capacidade de liderança que exerce no meio em que atua. Realista e com forte senso de discernimento dos fatos, sabe aproveitar as oportunidades do momento.
+É o perfil muitas vezes de quem gosta de jogos e competições. A glória e o sucesso são conceitos que muito o estimulam, pois nos desafios consegue ser admirado e ter seus méritos reconhecidos, elementos fundamentais para sua realização pessoal.
+A educação deve ser um processo ativo, que lhe confira a liberdade necessária para aprender o que desperta seu interesse e curiosidade. Pode, inclusive, consagrar-se a um trabalho horas a fio, se este lhe interessar.",
+			"str_points": "Consegue organizar dados confusos e sabe empregar bem os recursos disponíveis. Prefere trabalhar sozinho. É do tipo “faça você mesmo”.",
+			"weak_points": "Pode demonstrar dificuldades quando precisa expressar algo necessário para o desempenho global de uma tarefa. Não tem paciência com teorias e conceitos abstratos.  Às vezes se aborrece com uma tarefa rotineira ou quando não enxerga finalidade em executá-la.  Pode parecer imprevisível, pois segue suas lógicas internas em seus comportamentos e atitudes - e não as opiniões alheias ou convenções do senso comum."
+		}
+	]
+}
