@@ -2,7 +2,115 @@
 	"questions": [
 		{
 			"question": "Em um lugar novo, ou frente a novas situações, você prefere:",
-			"answers": ["Compartilhar informações com o máximo de pessoas possível, sentindo-se bem principalmente quando acompanhado ou em grupo.", "Compartilhar informações com um grupo mais restrito de pessoas, quem estiver mais próximo a você, sentindo-se bem também quando fica sozinho." ]
+			"answers": ["Compartilhar informações com o máximo de pessoas possível, sentindo-se bem principalmente quando acompanhado ou em grupo.", "Compartilhar informações com um grupo mais restrito de pessoas, quem estiver mais próximo a você, sentindo-se bem também quando fica sozinho."]
+		},
+		{
+			"question": "Você se considera uma pessoa mais:",
+			"answers": ["Objetiva, que gosta de novas ideias apenas se elas tiverem aplicações práticas – seu interesse é a funcionalidade e aplicabilidade de algo.","Interpretativa, que gosta de novas ideias mesmo se não tiverem aplicações práticas – seu maior interesse é analisar, interpretar as possibilidades."]
+		},
+		{
+			"question": "Na maioria das situações, você tende a ser uma pessoa:",
+			"answers": ["Racional, que se guia pela lógica, com imparcialidade.", "Emotiva, que se guia pelo sentimento e coração."]
+		},
+		{
+			"question": "Você é uma pessoa que:",
+			"answers": ["Tem uma ética de trabalho: primeiro o trabalho, depois a diversão (se houver tempo).", "Tem uma ética de divertimento: aproveitar agora, terminar o trabalho depois (se houver tempo)."]
+		},
+		{
+			"question": "Pense que está no meio de um grande grupo de pessoas. Você...",
+			"answers": ["Fala mais do que ouve. Age e depois pensa.", "Ouve mais do que fala. Pensa e depois age."]
+		},
+		{
+			"question": "Ao realizar as tarefas diárias, você:",
+			"answers": ["Segue os procedimentos de rotina, buscando os modos mais eficazes e precisos de chegar ao resultado final, preferindo apresentar informações por etapas.", "Fica procurando um modo novo e diferente de fazê-las, preferindo apresentar informações prontas e acabadas."]
+		},
+		{
+			"question": "Nas suas decisões e avaliações sobre outras pessoas, pesa mais:",
+			"answers": ["O que é certo ou errado, ou seja, valoriza a lógica e a justiça. Vê um padrão para todos.", "Preservar um clima cordial entre as pessoas. Compreende as circunstâncias que levaram a pessoa àquela atitude."]
+		},
+		{
+			"question": "Você é uma pessoa mais:",
+			"answers": ["Organizada que gosta de fazer as coisas com certa rotina, ou seja, determina metas e trabalha para executá-las em tempo hábil.", "Improvisadora e totalmente avessa à rotina, ou seja, muda as metas assim que novas informações se tornam acessíveis ou perceptíveis."]
+		},
+		{
+			"question": "Sua tendência mais natural frente a questionamentos é:",
+			"answers": ["Responder rapidamente, pois não gosta de ficar analisando para depois responder.", "Responder após dar um tempo para pensar, pois não consegue opinar sem ter refletido com mais calma e profundidade."]
+		},
+		{
+			"question": "Você é uma pessoa que se liga mais:",
+			"answers": ["À sua experiência da realidade passada e presente.", "À sua percepção das possibilidades futuras."]
+		},
+		{
+			"question": "Você é mais motivado:",
+			"answers": ["Por um sentimento de realização e competência no que faz.", "Por um desejo de ser apreciado e reconhecido no que faz."]
+		},
+		{
+			"question": "Você se sente mais à vontade:",
+			"answers": ["Planejamento e esquematizando o que tem a fazer (trabalho, passeio), não apreciando a necessidade de improvisos.", "Não planejando e não esquematizando o que tem a fazer, curtindo a improvisação quando necessária."]
+		},
+		{
+			"question": "Você é uma pessoa que se inclina a ser:",
+			"answers": ["Expansiva, falante, que interage com as situações novas e as pessoas e depois analisa o que fez ou falou.", "Reservada, observadora, preferindo perceber o ambiente e as pessoas antes de decidir interagir."]
+		},
+		{
+			"question": "Você se considera uma pessoa mais:",
+			"answers": ["Ligada à realidade e aos fatos, acreditando no que é certo e concreto.", "Mais ligada ao simbolismo e ao significado destes fatos, acreditando no que lhe parece e em suas deduções, além dos fatos."]
+		},
+		{
+			"question": "Você é mais sensível a convencer-se por:",
+			"answers": ["Uma argumentação lógica.", "Algo que toque suas emoções."]
+		},
+		{
+			"question": "Você prefere desenvolver tarefas:",
+			"answers": ["Com prazos e procedimentos definidos. Vê o tempo como um recurso finito e leva a sério seus prazos.", "Sem prazos nem procedimentos estabelecidos. Vê o tempo como um recurso renovável e procura esticar seus prazos."]
+		},
+		{
+			"question": "Numa reunião ou festa, onde a maioria das pessoas é desconhecida, você tende a:",
+			"answers": ["Ficar bastante tempo procurando interagir com o máximo de pessoas possível.", "Ficar pouco tempo, permanecendo apenas se encontrar um grupo como qual deseje interagir."]
+		},
+		{
+			"question": "Você acha que valoriza mais:",
+			"answers": ["O realismo e o bom senso nas situações diversas.", "As reflexões e interpretações nas situações diversas."]
+		},
+		{
+			"question": "Ao tratar de um assunto conflituoso com outras pessoas, você tende a ser:",
+			"answers": ["Objetivo e direto, imparcial.", "Pessoal e com dificuldades para manter a imparcialidade."]
+		},
+		{
+			"question": "Em geral, você se sente melhor em situações:",
+			"answers": ["Estabelecidas e definidas. Fica feliz depois de decisões terem sido tomadas.", "Abertas, com possibilidades variadas. Fica feliz deixando suas opções livres para novas necessidades ou vontades."]
+		},
+		{
+			"question": "Em situações sociais, você gosta mais de:",
+			"answers": ["Ser o centro das atenções, comunicando-se com entusiasmo.", "Evitar ser o centro das atenções, guardando o entusiasmo para si mesmo."]
+		},
+		{
+			"question": "Em leituras, você em geral prefere autores:",
+			"answers": ["Com linguagem direta e literal, que descrevam os fatos e acontecimentos detalhadamente.", "Que se comuniquem com metáforas e imagens, possibilitando ao leitor fantasiar, imaginar e sentir muitas sensações com a leitura."]
+		},
+		{
+			"question": "Você:",
+			"answers": ["Considera mais importante ser realista que diplomático. Frente a conflitos procura argumentar sobre seus pontos de vista, pois valoriza a verdade e a compreensão dos fatos para melhorar o que for necessário.", "Considera mais importante ser diplomático que ser realista e argumentar diretamente sobre o conflito. Gosta de ajudar os outros, procurando agir para que os conflitos se solucionem e todos fiquem bem ao final.  Ser conciliador é mais importante que debater."]
+		},
+		{
+			"question": "Você gosta mais de tarefas ligadas a:",
+			"answers": ["Execução e distribuição, sendo necessário um roteiro ou sequência de atividades para completar a tarefa. O que importa é o produto, a qualidade da finalização.", "Projeto e criação, realizando-se no processo criativo e não se importando com protocolos, roteiros ou sequência de atividades. O que importa é o processo, como realizar a tarefa."]
+		},
+		{
+			"question": "Pense rapidamente sobre sua auto-imagem. Responda:",
+			"answers": ["Prefiro amplitude à profundidade na discussão dos assuntos;  costumo pensar falando alto minhas ideias.  Interagir faz parte de meu processo de reflexão sobre algo.", "Prefiro a profundidade à amplitude na discussão dos assuntos; tendo a pensar comigo mesmo, falando apenas quando convicto de minha opinião ou contraposição.  Só manifesto minha opinião quando julgo importante para acrescentar um diferencial."]
+		},
+		{
+			"question": "Em seu estilo de aprendizagem:",
+			"answers": ["Você gosta de usar e aperfeiçoar as habilidades aprendidas.", "Você gosta de aprender novas habilidades, aborrecendo-se com aptidões que passa a dominar."]
+		},
+		{
+			"question": "Você:",
+			"answers": ["Acredita que os sentimentos são válidos apenas se possuírem uma lógica.", "Acredita que qualquer sentimento é válido, faça sentido ou não."]
+		},
+		{
+			"question": "Em uma prova, supondo que a matéria o permita (e que você domine a matéria, deixando de lado pressões do tipo precisar de nota, etc.), você prefere uma:",
+			"answers": ["Prova com questões definidas e objetivas, onde os conceitos necessários sejam claramente descritos.", "Prova com questões onde você possa desenvolver livremente um assunto, discorrer sobre um tema."]
 		}
 	]
 }
