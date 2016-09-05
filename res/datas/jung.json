@@ -1,0 +1,12 @@
+{
+	"questions": [
+		{
+			"question": "Em um lugar novo, ou frente a novas situações, você prefere:",
+			"answers": ["Compartilhar informações com o máximo de pessoas possível, sentindo-se bem principalmente quando acompanhado ou em grupo.", "Compartilhar informações com um grupo mais restrito de pessoas, quem estiver mais próximo a você, sentindo-se bem também quando fica sozinho." ]
+		},
+		{
+			"question": "Você se considera uma pessoa mais:",
+			"answers": ["Objetiva, que gosta de novas ideias apenas se elas tiverem aplicações práticas – seu interesse é a funcionalidade e aplicabilidade de algo.","Interpretativa, que gosta de novas ideias mesmo se não tiverem aplicações práticas – seu maior interesse é analisar, interpretar as possibilidades."]
+		}
+	]
+}
