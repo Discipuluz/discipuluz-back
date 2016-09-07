@@ -1,0 +1,66 @@
+{
+	"intro": {
+		"title": "Tipologia de Estruturas Vocacionais de John Holland",
+		"text": "Elaborada por John Lewis Holland, (1919 – 2008), psicológo americano, Professor Emérito de Sociologia na Universidade John Hopkins que desenvolveu descrições ocupacionais, baseado na Teoria das Escolhas Vocacionais.
+A ideia central em sua teoria é que as preferências ocupacionais expressam características de interesse e de personalidade, influenciando diretamente a escolha de uma vocação.
+Holland sugeriu que as pessoas podem ser categorizadas em 6 tipos principais, porém, este esquema permite a subdivisão dos perfis em até 720 diferentes padrões, através de combinações de sub-tipos."
+	},
+	"typology": {
+		"title": " A Tipologia RIASEC:",
+		"text": "A teoria postula que as personalidades e os ambientes de trabalho podem ser basicamente de seis tipos:
+Realista (R)
+Pesquisador ou Investigativo (I)
+Artístico (A)
+Social (S)
+Empreendedor (E)
+Assessoria (ou Convencional, do original em inglês Conventional) (C).
+
+De acordo com  Holland, indivíduos de personalidades semelhantes criam ambientes físicos e interpessoais característicos que podem ser categorizados através da tipologia acima. Portanto,  o modelo também categoriza os ambientes de trabalho a partir da tipologia RIASEC."
+	},
+	"warning": {
+		"title": "IMPORTANTE:",
+		"text": "Uma mesma composição de chave vocacional pode levar a áreas de atuação em profissões diferentes, pois aqui entra a Orientação Profissional de pesquisa nas mais de 265 carreiras que existem atualmente no Brasil, em diferentes modalidades de cursos.
+		Veja abaixo uma breve descrição destas Estruturas Vocacionais:"
+	},
+	"structs": [
+		{
+			"title": "Realista:",
+			"text": "Gosta de atividades concretas e produtivas, que precisem de conceitos técnicos ou tecnológicos e busquem a solução de problemas.
+	Características pessoais: O perfil realístico gosta de viver em seu mundo, compreendendo-o através da lógica e de ferramentas teóricas ou tecnológicas.  Deste modo, não é um perfil extremamente sociável ou falante, pois prefere observar a se expor.  Prefere resolver um problema que lhe seja apresentado, chegando a uma solução concreta a discutir ideias e precisar chegar a consensos.   Demonstra certa aversão a situações ambíguas e carregadas de subjetividade.
+	Possíveis áreas de atuação: engenharias em geral (existem cerca de 35 tipos de engenharia!), atividades que envolvam ferramentas, mecânica ou elétrica, atividades ligadas ao campo - por exemplo agronomia ou zootecnia.  Se a área de interesse for medicina, gostará mais das áreas cirúrgicas.  Ao fazer administração, o setor financeiro, tributário ou de controladoria terão sua atenção.  Atletas profissionais possuem muito do perfil realista, devido às suas características quanto a  foco, concentração e determinação para atingir aperfeiçoamentos constantes.  Carreiras militares também possuem alto traço do perfil realista."
+		},
+		{
+			"title": "Pesquisador ou Investigativo:",
+			"text": "A partir de uma área de conhecimento escolhida, este perfil se dedicará por horas a fio em seu estudo, aprofundamento e análise.  Tudo no mundo e à sua volta será compreendido ou explicado através da argumentação lógica.
+	Características pessoais:  desconfortável diante de emoções intensas e conflitos de interesses pessoais, sua tendência será sempre recolher-se às suas convicções. Suas  preferências por atividades teóricas e autônomas tendem a torná-lo ainda mais independente com  relação a vínculos grupais, e mais centrado em si mesmo e suas prioridades.
+	Possíveis áreas de atuação: em qualquer profissão é possível ser pesquisador;  geralmente após a graduação será atraído à pós graduaçãostrictu sensu (mestrado e doutorado), para seguir vida acadêmica.  Podemos subdividir o grupo pesquisador em um mais objetivo (biologia, biomedicina, farmácia, tecnologia, engenharia, medicina, etc) e outro mais subjetivo (filosofia, sociologia, literatura, psicologia, etc).
+	OBS:  Professores fantásticos são 50% Investigativo e 50% Social..."
+		},
+		{
+			"title": "Artístico:",
+			"text": "Criar produtos, encontrar formas de comunicar ideias ou sentimentos, expressar artisticamente seu modo de compreender tudo o que percebe, sente e acredita.  O potencial de expressão é o propulsor pessoal e profissional do perfil artístico.  Se você compreender o canal de comunicação utilizado pelo artístico, então compreenderá seu mundo.
+	Características pessoais:  aprecia o contato interpessoal quando está seguro de poder expressar-se livremente – caso contrário, pode apresentar-se mais retraído. É aberto a estímulos subjetivos e emocionais, sendo capaz de perceber as reações das pessoas através de empatia.  Seu tipo de idealismo:  sonha com um mundo ideal... e deseja mudar-se para lá!
+	Possíveis áreas de atuação: publicidade, design gráfico, design digital,design de produtos, arquitetura ou design de interiores, música, fotografia, audiovisual, cinema, artes visuais, artes plásticas, teatro, literatura. Muitas pessoas de perfil artístico pensam em jornalismo, mas precisam pesquisar exatamente as funções desta profissão para diferenciar o que projeta e o que encontrará enquanto potencial de criatividade. Qualquer profissão que necessite de criação de imagens, ou comunicação de ideias são potenciais para o perfil artístico."
+		},
+		{
+			"title": "Social:",
+			"text": "Sua palavra chave:  RELACIONAR-SE.  Atividades onde possa informar, orientar, auxiliar, tratar ou ajudar terapeuticamente são suas principais escolhas.  Interessa-se  pelos vínculos humanos e manifesta sensibilidade e responsabilidade na busca por desenvolvimento individual, grupal, institucional, social e ético.
+	Possui um estilo de liderança pela credibilidade, dedicação e lealdade.
+	Características pessoais:  Gosta de sentir-se aceito e respeitado em suas atividades, conquistar seu espaço pelas suas atitudes coerentes com seus valores pessoais, sociais e éticos. Seu tipo de idealismo:  sonha com um mundo ideal... e começa a atuar imediatamente para que nosso mundo se torne o que sonhou.
+	 Possíveis áreas de atuação: psicologia, fisioterapia, enfermagem, serviço social.  Se fizer medicina, preferirá as áreas clínicas às cirúrgicas.  Se fizer administração, gostará da gestão de pessoas e Recursos Humanos (seleção e treinamento de pessoal).
+	OBS:  Professores fantásticos são 50% Investigativo e 50% Social..."
+		},
+		{
+			"title": "Empreendedor:",
+			"text": "Empreender significa literalmente “tomar a responsabilidade para si, assumir com as próprias mãos”.  Este perfil demonstra grande apetite por desafios e não gosta de atividades excessivamente rotineiras.  O novo ou inusitado o atraem.  Demonstra habilidades verbais para a persuasão, negociação e decisão.
+	Características pessoais: Expansivo, apresenta iniciativa e competitividade. Aprecia a aquisição de poder, status e bens materiais.  Precisa trabalhar seu excesso de energia para exercer uma liderança positiva, senão tende a adotar um estilo autoritário.
+	Possíveis áreas de atuação: marketing, atividades comerciais em geral, advocacia, carreira política, se fizer administração gostará da gestão executiva e área comercial."
+		},
+		{
+			"title": "Assessoria ou Convencional:",
+			"text": "Planejamento, organização e busca máxima de eficiência nas mínimas tarefas.  Gosta de atuar em seus projetos para atingir suas metas – grande característica de atuação deste perfil.  Parece adequado a ele o protocolo de gestão PDCA:  Plain / Do / Check / Act.
+	Características pessoais:  evita atividades de risco e gosta de ser reconhecido em sua competência.  Leal, estável em suas opiniões e emoções, gera alta credibilidade em sua vida pessoal e profissional - esta é a fonte de seu estilo de liderança.  Identifica-se com tudo que outorgue status e poder, apresentando habilidades técnicas em negociações – e não o caráter persuasivo do empreendedor.
+	Possíveis áreas de atuação: auditoria, contabilidade, administração, atividades diversas que envolvam gestão e organização ou área comercial, dentre outras."
+		}
+	]
+}
