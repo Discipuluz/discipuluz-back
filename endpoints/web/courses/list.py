@@ -4,28 +4,28 @@ utils = [
 
 def get(req, api):
     """
-    List all universities
+    List all courses
 
     Input: None
 
     Output:
         error: boolean
-        universities: [Object]
+        courses: [Object]
     """
 
     error = None
-    universities = []
+    courses = []
 
     try:
-        for u in api.mongodb.select(api, 'universities'):
-            universities.append(u) 
+        for u in api.mongodb.select(api, 'courses'):
+            courses.append(u) 
     except Exception as e:
         error = e
 
     if not error:
         req.send({
             'error': False,
-            'universities': str(universities)
+            'courses': str(courses)
         })
     else:
         req.send({
