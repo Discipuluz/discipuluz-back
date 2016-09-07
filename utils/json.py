@@ -8,6 +8,5 @@ def read(file):
         data_str = data_file.read()
         print data_str
         data = json.loads(data_str)
-
     print data
     return data
