@@ -14,3 +14,5 @@ COPY . /usr/src/app/dev/
 RUN pip install --no-cache-dir -r requirements.txt
 
 CMD ["pypolyback", "-s"]
+
+EXPOSE 8888
