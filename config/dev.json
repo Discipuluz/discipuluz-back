@@ -5,7 +5,7 @@
         "cors": "*"
     },
     "mongodb": {
-        "host": "localhost:27017",
-        "database": "discipuluz"
+        "host": "http://www.discipuluz.com:27017",
+        "database": "dev"
     }
 }
