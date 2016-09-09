@@ -1,6 +1,6 @@
 {
     "server": {
-        "port": 8888
+        "port": 8000
     },
     "mail":{
       "host": "br548.hostgator.com.br",

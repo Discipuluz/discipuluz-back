@@ -6,10 +6,10 @@ FROM python:2.7
 
 MAINTAINER Rodrigo Seiji Piubeli Hirao <rodrigo.seiji.hirao@gmail.com>
 
-RUN mkdir -p /usr/src/app/prod
-WORKDIR /usr/src/app/prod
+RUN mkdir -p /usr/src/app/dev
+WORKDIR /usr/src/app/dev
 
-COPY ../ /usr/src/app/prod/
+COPY ../ /usr/src/app/dev/
 
 RUN pip install --no-cache-dir -r requirements.txt
 
