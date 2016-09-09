@@ -13,4 +13,4 @@ COPY . /usr/src/app/dev/
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-ONBUILD RUN pypolyback -s
+CMD ["pypolyback", "-s"]
