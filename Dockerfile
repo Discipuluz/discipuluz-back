@@ -9,7 +9,7 @@ MAINTAINER Rodrigo Seiji Piubeli Hirao <rodrigo.seiji.hirao@gmail.com>
 RUN mkdir -p /usr/src/app/dev
 WORKDIR /usr/src/app/dev
 
-COPY ../ /usr/src/app/dev/
+COPY . /usr/src/app/dev/
 
 RUN pip install --no-cache-dir -r requirements.txt
 
