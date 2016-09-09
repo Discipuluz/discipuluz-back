@@ -1,6 +1,5 @@
 # Main lib
-pypolyback == 0.12.6
-cyclone == 1.1
+pypolyback == 0.12.7
 
 # utils/mongodb.py
 pymongo == 3.3.0
