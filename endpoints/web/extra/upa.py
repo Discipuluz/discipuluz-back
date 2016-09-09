@@ -4,7 +4,7 @@ utils = [
 
 def post(req, api):
     """
-    Save contact to database and send an email
+     Save contact to database and send an email
 
     Input:
         name: string
@@ -22,11 +22,11 @@ def post(req, api):
     """
 
     name = req.params['name']
-	facebook = req.params['facebook']
+    facebook = req.params['facebook']
     email = req.params['email']
-	celular = req.params['phone']
-	course = req.params['course']
-	info = req.params['info']
+    phone = req.params['phone']
+    course = req.params['course']
+    info = req.params['info']
     message = req.params['message']
 
     index = None
