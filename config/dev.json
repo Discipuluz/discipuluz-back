@@ -1,5 +1,9 @@
 {
     "server": {
         "port": 8888
+    },
+    "mongodb": {
+        "host": "localhost:27017",
+        "database": "discipuluz"
     }
 }
