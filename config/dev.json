@@ -1,5 +1,11 @@
 {
+    "log": true,
     "server": {
-        "port": 8888
+        "port": 8888,
+        "cors": "*"
+    },
+    "mongodb": {
+        "host": "www.discipuluz.com:27017",
+        "database": "dev"
     }
 }

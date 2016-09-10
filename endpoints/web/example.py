@@ -4,7 +4,6 @@
 from pypolyback import async
 
 utils = [
-    'mysql',
     'mongodb',
     'json'
 ]
