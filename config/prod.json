@@ -3,6 +3,10 @@
     "server": {
         "port": 8000
     },
+    "mongodb": {
+        "host": "www.discipuluz.com:27017",
+        "database": "prod"
+    },
     "mail":{
       "host": "br548.hostgator.com.br",
       "port": 465,
