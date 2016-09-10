@@ -14,14 +14,15 @@ def post(req, api):
         course: Object
     """
 
+    name = None
+
     if 'name' in req.params:
         name = req.params['name']
     else:
         id = api.mongodb.toObjectId(req.params["id"])
 
     error = None
-    name = None
-    
+
     try:
         if not name:
             result = api.mongodb.select(api, 'courses', {'_id': id})
