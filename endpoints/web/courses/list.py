@@ -2,11 +2,12 @@ utils = [
     'mongodb'
 ]
 
-def get(req, api):
+def post(req, api):
     """
-    List all courses
+    List all courses / courses by university
 
-    Input: None
+    Input: 
+        university: string
 
     Output:
         error: boolean
@@ -15,9 +16,13 @@ def get(req, api):
 
     error = None
     courses = []
+    university = None
+
+    if 'university' in req.params:
+        university = req.params['university']
 
     try:
-        for u in api.mongodb.select(api, 'courses'):
+        for u in api.mongodb.select(api, 'courses', {'universities.name': university}):
             courses.append(u) 
     except Exception as e:
         error = e

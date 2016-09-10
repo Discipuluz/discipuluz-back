@@ -4,7 +4,7 @@ utils = [
 
 def post(req, api):
     """
-    Get a course by id
+    Get a course by id/name
 
     Input:
         id: string
@@ -14,12 +14,18 @@ def post(req, api):
         course: Object
     """
 
-    id = api.mongodb.toObjectId(req.params["id"])
+    if 'name' in req.params:
+        name = req.params['name']
+    else:
+        id = api.mongodb.toObjectId(req.params["id"])
 
     error = None
 
     try:
-        result = api.mongodb.select(api, 'courses', {'_id': id})
+        if not name:
+            result = api.mongodb.select(api, 'courses', {'_id': id})
+        else:
+            result = api.mongodb.select(api, 'courses', {'name': name})
     except Exception as e:
         error = e
 
