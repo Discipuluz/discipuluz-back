@@ -16,6 +16,8 @@ def post(req, api):
 
     name = None
 
+    print req.params
+    
     if 'name' in req.params:
         name = req.params['name']
     else:
