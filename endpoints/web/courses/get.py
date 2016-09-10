@@ -14,10 +14,13 @@ def post(req, api):
         course: Object
     """
 
+    print 'alou'
+
     name = None
 
+    print 'tchau tchau'
     print req.params
-    
+
     if 'name' in req.params:
         name = req.params['name']
     else:
