@@ -21,13 +21,20 @@ def post(req, api):
             message: string
     """
 
-    name = req.params['name']
-    facebook = req.params['facebook']
-    email = req.params['email']
-    phone = req.params['phone']
-    course = req.params['course']
-    info = req.params['info']
-    message = req.params['message']
+    if 'name' in req.params:
+        name = req.params['name']
+    if 'facebook' in req.params:
+        facebook = req.params['facebook']
+    if 'email' in req.params:
+        email = req.params['email']
+    if 'phone' in req.params:
+        phone = req.params['phone']
+    if 'course' in req.params:
+        course = req.params['course']
+    if 'info' in req.params:
+        info = req.params['info']
+    if 'message' in req.params:
+        message = req.params['message']
 
     index = None
     error = None
