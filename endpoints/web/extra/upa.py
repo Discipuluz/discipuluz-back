@@ -21,34 +21,11 @@ def post(req, api):
             message: string
     """
 
-    if 'name' in req.params:
-        name = req.params['name']
-    if 'facebook' in req.params:
-        facebook = req.params['facebook']
-    if 'email' in req.params:
-        email = req.params['email']
-    if 'phone' in req.params:
-        phone = req.params['phone']
-    if 'course' in req.params:
-        course = req.params['course']
-    if 'info' in req.params:
-        info = req.params['info']
-    if 'message' in req.params:
-        message = req.params['message']
-
     index = None
     error = None
 
     try:
-        index = api.mongodb.insert(api, 'Upa', {
-            'name': name,
-			'facebook': facebook,
-            'email': email,
-			'phone': phone,
-			'course': course,
-			'info': info,
-            'message': message
-        })
+        index = api.mongodb.insert(api, 'Upa', req.params)
     except Exception as e:
         error = e
 
