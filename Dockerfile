@@ -1,18 +1,19 @@
 ########################################################
-# Dockerfile to build Polymer project and move to server
-# Based on oficial nginx Dockerfile
+# Dockerfile to install python APYS framework
+# and start a server
+# Based on oficial python Dockerfile
 ########################################################
-FROM python:2.7
+FROM python
 
 MAINTAINER Rodrigo Seiji Piubeli Hirao <rodrigo.seiji.hirao@gmail.com>
 
-RUN mkdir -p /usr/src/app/dev
-WORKDIR /usr/src/app/dev
+RUN mkdir -p /usr/src/app/back
+WORKDIR /usr/src/app/back
 
-COPY . /usr/src/app/dev/
+COPY . /usr/src/app/back/
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ["pypolyback", "-s"]
+CMD ["apys", "-s"]
 
 EXPOSE 8888

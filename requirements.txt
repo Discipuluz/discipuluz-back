@@ -1,5 +1,5 @@
 # Main lib
-pypolyback == 0.12.7
+apys == 0.2.0
 
 # utils/mongodb.py
 pymongo == 3.3.0
