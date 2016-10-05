@@ -1,6 +1,14 @@
+# Local apys files
 local.json
+
+# User files
 *.log
 *.cache
+
+# Object files
 *.pyc
 *.pyd
 *.pyo
+
+# Virtual environment
+.venv
