@@ -1,11 +1,10 @@
 {
-    "log": true,
     "server": {
-        "port": 8000
+        "port": 8888
     },
     "mongodb": {
-        "host": "www.discipuluz.com:27017",
-        "database": "prod"
+        "host": "localhost:27017",
+        "database": "discipuluz"
     },
     "mail":{
       "host": "br548.hostgator.com.br",
