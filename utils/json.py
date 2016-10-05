@@ -6,7 +6,5 @@ from pprint import pprint
 def read(file):
     with codecs.open(os.path.join(os.path.dirname(__file__), '../res/datas/' + file + '.json'), 'r', 'utf-8-sig') as data_file:
         data_str = data_file.read()
-        print data_str
         data = json.loads(data_str)
-    print data
     return data

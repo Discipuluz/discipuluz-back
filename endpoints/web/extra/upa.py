@@ -24,7 +24,7 @@ def post(req, api):
     index = None
     error = None
     
-    print req.params
+    print(req.params)
 
     try:
         index = api.mongodb.insert(api, 'Upa', req.params)

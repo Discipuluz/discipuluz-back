@@ -68,8 +68,6 @@ def select(api, table, columns=['*'], by = {}):
 def insert(api, table, elem):
 	table = str(MySQLdb.escape_string(table))
 	query, params = prepareinsert(table, elem)
-	print query
-	print params
 	api.vars['cur'].execute(query, params)
 	api.vars['db'].commit()
 	results = []
