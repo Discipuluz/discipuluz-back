@@ -3,7 +3,7 @@
 # and start a server
 # Based on oficial python Dockerfile
 ########################################################
-FROM python
+FROM python:3-alpine
 
 MAINTAINER Rodrigo Seiji Piubeli Hirao <rodrigo.seiji.hirao@gmail.com>
 
