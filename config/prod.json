@@ -2,6 +2,13 @@
     "server": {
         "port": 8888
     },
+    "log": {
+        "file": {
+            "debug": "/var/log/apys/debug.log",
+            "error": "/var/log/apys/error.log"
+        },
+        "color": false
+    },
     "mongodb": {
         "host": "db:27017",
         "database": "discipuluz"

@@ -7,6 +7,9 @@ FROM python:3-alpine
 
 MAINTAINER Rodrigo Seiji Piubeli Hirao <rodrigo.seiji.hirao@gmail.com>
 
+# log
+RUN mkdir -p /var/log/apys
+
 RUN mkdir -p /usr/src/app/back
 WORKDIR /usr/src/app/back
 
