@@ -3,7 +3,7 @@
         "port": 8888
     },
     "mongodb": {
-        "host": "DB:27017",
+        "host": "db:27017",
         "database": "discipuluz"
     },
     "mail":{
