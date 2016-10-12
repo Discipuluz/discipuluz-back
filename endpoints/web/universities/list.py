@@ -18,7 +18,7 @@ def get(req, api):
 
     try:
         for u in api.mongodb.select(api, 'universities'):
-            universities.append(u) 
+            universities.append(u)
     except Exception as e:
         error = e
 

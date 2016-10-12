@@ -21,21 +21,21 @@ def post(req, api):
     for i in range(0, 6):
         for j in range(i, 78, 6):
             results[i] += answers[j]
-    
+
     try:
         index = api.mongodb.insert(api, 'holland_answers',{
             'answers': results
         })
     except Exception as e:
         error = e
-        
+
     if not error:
-        req.send({
+        return {
             'error': False,
             'session': str(index)
-        })
+        }
     else:
-        req.send({
+        return {
             'error': True,
             'message': str(error)
-        })
+        }

@@ -24,12 +24,12 @@ def post(req, api):
         error = e
 
     if not error:
-        req.send({
+        return {
             'error': False,
             'university': str(result.next())
-        })
+        }
     else:
-        req.send({
+        return {
             'error': True,
             'message': str(error)
-        })
+        }

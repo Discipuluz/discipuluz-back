@@ -37,7 +37,7 @@ def post(req, api):
             'course': str(result.next())
         })
     else:
-        req.send({
+        return {
             'error': True,
             'message': str(error)
-        })
+        }
