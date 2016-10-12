@@ -15,7 +15,7 @@ WORKDIR /usr/src/app/back
 
 COPY . /usr/src/app/back/
 
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --upgrade --no-cache-dir -r requirements.txt
 
 CMD ["apys", "-s", "--config=dev"]
 
