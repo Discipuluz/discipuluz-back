@@ -13,7 +13,7 @@ def post(req, api):
         error: boolean
         course: Object
     """
-
+    
     name = None
 
     if 'name' in req.params:
