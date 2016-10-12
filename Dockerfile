@@ -17,6 +17,6 @@ COPY . /usr/src/app/back/
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ["apys", "-s", "--config=dev.json"]
+CMD ["apys", "-s", "--config=dev"]
 
 EXPOSE 8888
