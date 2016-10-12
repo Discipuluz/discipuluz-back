@@ -18,17 +18,17 @@ def get(req, api):
 
     try:
         for u in api.mongodb.select(api, 'universities'):
-            universities.append(u) 
+            universities.append(u)
     except Exception as e:
         error = e
 
     if not error:
-        req.send({
+        return {
             'error': False,
             'universities': str(universities)
-        })
+        }
     else:
-        req.send({
+        return {
             'error': True,
             'message': str(error)
-        })
+        }

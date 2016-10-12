@@ -16,7 +16,7 @@ def post(req, api):
             error: boolean
             message: string
     """
-    
+
     name = req.params['name']
     email = req.params['email']
     comment = req.params['comment']
@@ -34,11 +34,11 @@ def post(req, api):
         error = e
 
     if index:
-        req.send({
+        return {
             'error': False
-        })
+        }
     else:
-        req.send({
+        return {
             'error': True,
             'message': str(error)
-        })
+        }

@@ -20,10 +20,10 @@ def post(req, api):
             error: boolean
             message: string
     """
-    
+
     index = None
     error = None
-    
+
     print(req.params)
 
     try:
@@ -32,11 +32,11 @@ def post(req, api):
         error = e
 
     if index:
-        req.send({
+        return {
             'error': False
-        })
+        }
     else:
-        req.send({
+        return {
             'error': True,
             'message': str(error)
-        })
+        }

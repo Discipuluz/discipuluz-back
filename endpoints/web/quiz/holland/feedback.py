@@ -32,12 +32,12 @@ def post(req, api):
         error = e
 
     if not error:
-        req.send({
+        return {
             'error': False,
             'session': str(index)
-        })
+        }
     else:
-        req.send({
+        return {
             'error': True,
             'message': str(error)
-        })
+        }
