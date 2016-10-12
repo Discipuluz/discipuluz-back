@@ -4,7 +4,7 @@
         "cors": "*"
     },
     "mongodb": {
-        "host": "www.test.discipuluz.com:27017",
+        "host": "db:27017",
         "database": "test"
     }
 }
