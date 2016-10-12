@@ -14,10 +14,9 @@ RUN mkdir -p /usr/src/app/back
 WORKDIR /usr/src/app/back
 
 COPY . /usr/src/app/back/
-RUN rm config/dev.json
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ["apys", "-s"]
+CMD ["apys", "-s", "--config=dev.json"]
 
 EXPOSE 8888
