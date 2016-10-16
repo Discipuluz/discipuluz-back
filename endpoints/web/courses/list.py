@@ -10,7 +10,7 @@ def post(req, api):
         university: string
 
     Output:
-        error: boolean
+        error: booleanin req.params:
         courses: [Object]
     """
 
