@@ -21,7 +21,7 @@ def post(req, api):
     else:
         id = api.mongodb.toObjectId(req.params["id"])
     
-    col = api.mongodb.toObjectId(req.params["col"])
+    col = req.params["col"]
     error = None
 
     try:
@@ -30,12 +30,13 @@ def post(req, api):
         else:
             result = api.mongodb.select(api, 'courses', {'name': name}, col)
     except Exception as e:
+        print(e)
         error = e
 
     if not error:
         return {
             'error': False,
-            'course': str(result)
+            'course': result
         }
     else:
         return {

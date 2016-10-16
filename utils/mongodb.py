@@ -17,17 +17,13 @@ def select(api, collection, by={}, col=[]):
     result = []
     for doc in cursor:
         el = {}
-        for key in doc:
-            key = 'id' if key is '_id'
-            if key in col:
-                # formating ObjectId(_id) to str(id)
-                if key is '_id':
-                    el['id'] = str(doc['_id'])
-                else:
-                    el[key] = doc[key]
-
-
-        result += [doc]
+        for key in col:
+            # formating ObjectId(_id) to str(id)
+            if key == 'id':
+                el['id'] = str(doc['_id'])
+            else:
+                el[key] = doc[key]
+        result += [el]
     return result
 
 def update(api, collection, where, update):
