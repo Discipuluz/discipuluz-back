@@ -19,7 +19,7 @@ def post(req, api):
 
     name = req.params['name']
     email = req.params['email']
-    comment = req.params['comment']
+    message = req.params['message']
 
     index = None
     error = None
@@ -28,7 +28,7 @@ def post(req, api):
         index = api.mongodb.insert(api, 'Contacts', {
             'name': name,
             'email': email,
-            'comment': comment
+            'message': message
         })
     except Exception as e:
         error = e
