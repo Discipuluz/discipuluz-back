@@ -8,6 +8,7 @@ def post(req, api):
 
     Input:
         id: string
+        col: [string]
 
     Output:
         error: boolean
@@ -19,14 +20,15 @@ def post(req, api):
         name = req.params['name']
     else:
         id = api.mongodb.toObjectId(req.params["id"])
-
+    
+    col = api.mongodb.toObjectId(req.params["col"])
     error = None
 
     try:
         if not name:
-            result = api.mongodb.select(api, 'courses', {'_id': id})
+            result = api.mongodb.select(api, 'courses', {'_id': id}, col)
         else:
-            result = api.mongodb.select(api, 'courses', {'name': name})
+            result = api.mongodb.select(api, 'courses', {'name': name}, col)
     except Exception as e:
         error = e
 

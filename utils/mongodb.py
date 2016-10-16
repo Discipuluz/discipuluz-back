@@ -16,13 +16,17 @@ def select(api, collection, by={}, col=[]):
     cursor = api.vars['db'][collection].find(by)
     result = []
     for doc in cursor:
+        el = {}
         for key in doc:
-            if not key in col:
-                del doc[key]
-            # formating ObjectId(_id) to str(id)
-            elif key is '_id':
-                doc['id'] = str(doc['_id'])
-                del doc['_id']
+            key = 'id' if key is '_id'
+            if key in col:
+                # formating ObjectId(_id) to str(id)
+                if key is '_id':
+                    el['id'] = str(doc['_id'])
+                else:
+                    el[key] = doc[key]
+
+
         result += [doc]
     return result
 
