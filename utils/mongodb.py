@@ -12,11 +12,18 @@ def insert(api, collection, record):
     result_id = api.vars['db'][collection].insert(record)
     return result_id
 
-def select(api, collection, by = {}):
+def select(api, collection, by={}, col=[]):
     cursor = api.vars['db'][collection].find(by)
     result = []
     for doc in cursor:
-        result += [doc]
+        el = filter(lambda x: x in col, doc)
+
+        # formating ObjectId(_id) to str(id)
+        if '_id' in el:
+            el['id'] = str(el['_id'])
+            del el['_id']
+
+        result += [el]
 
     return result
 
