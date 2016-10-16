@@ -33,7 +33,7 @@ def post(req, api):
     if not error:
         return {
             'error': False,
-            'course': str(result.next())
+            'course': str(result)
         }
     else:
         return {

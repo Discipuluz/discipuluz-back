@@ -16,7 +16,9 @@ def select(api, collection, by = {}):
     cursor = api.vars['db'][collection].find(by)
     result = []
     for doc in cursor:
-        yield doc
+        result += [doc]
+
+    return result
 
 def update(api, collection, where, update):
     result = api.vars['db'][collection].update_many(where, {
