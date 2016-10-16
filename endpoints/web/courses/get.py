@@ -21,7 +21,7 @@ def post(req, api):
     else:
         id = api.mongodb.toObjectId(req.params["id"])
     
-    col = req.params["col"]
+    col = ["id", "name", "description"]
     error = None
 
     try:

@@ -21,7 +21,7 @@ def select(api, collection, by={}, col=[]):
             # formating ObjectId(_id) to str(id)
             if key == 'id':
                 el['id'] = str(doc['_id'])
-            else:
+            elif key in doc:
                 el[key] = doc[key]
         result += [el]
     return result

@@ -16,10 +16,11 @@ def post(req, api):
 
     id = api.mongodb.toObjectId(req.params["id"])
 
+    col = ["id", "name", "description"]
     error = None
 
     try:
-        result = api.mongodb.select(api, 'universities', {'_id': id})
+        result = api.mongodb.select(api, 'universities', {'_id': id}, col)
     except Exception as e:
         error = e
 
