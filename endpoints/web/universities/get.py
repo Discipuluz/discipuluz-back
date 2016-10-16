@@ -26,7 +26,7 @@ def post(req, api):
     if not error:
         return {
             'error': False,
-            'university': str(result))
+            'university': str(result)
         }
     else:
         return {
