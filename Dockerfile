@@ -19,6 +19,6 @@ COPY . /usr/src/app/
 
 RUN pip install --upgrade --no-cache-dir -r requirements.txt
 
-CMD ["apys", "-s", "-c", "echo ${CONFIG}"]
+CMD apys -s --config=$CONFIG
 
 EXPOSE 8888
