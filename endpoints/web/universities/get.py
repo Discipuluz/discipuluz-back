@@ -16,20 +16,21 @@ def post(req, api):
 
     id = api.mongodb.toObjectId(req.params["id"])
 
+    col = ["id", "name", "description", "url"]
     error = None
 
     try:
-        result = api.mongodb.select(api, 'universities', {'_id': id})
+        result = api.mongodb.select(api, 'universities', {'_id': id}, col)
     except Exception as e:
         error = e
 
     if not error:
-        req.send({
+        return {
             'error': False,
-            'university': str(result.next())
-        })
+            'university': str(result)
+        }
     else:
-        req.send({
+        return {
             'error': True,
             'message': str(error)
-        })
+        }

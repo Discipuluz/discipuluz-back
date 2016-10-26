@@ -8,7 +8,7 @@ def post(req, api):
 
     Input:
         answers: [string]
-    
+
     Output:
           response:
             error: boolean
@@ -21,7 +21,7 @@ def post(req, api):
     pos = 0
     results = [0 for x in range(8)]
     string_result = ''
-    
+
     for i in range(0, 4):
         for j in range(i, 28, 4):
             if answers[j] == 'A':
@@ -36,22 +36,22 @@ def post(req, api):
             string_result += chars_result[i * 2]
         else:
             string_result += chars_result[i * 2 + 1]
-    
+
     try:
         index = api.mongodb.insert(api, 'jung_answers', {
             'answers': answers,
-            'result': string_result 
+            'result': string_result
         })
     except Exception as e:
         error = e
 
     if index:
-        req.send({
+        return {
             'error': False,
             'session': str(session)
-        })
+        }
     else:
-        req.send({
+        return {
             'error': True,
             'message': str(error)
-        })
+        }

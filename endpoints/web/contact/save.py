@@ -16,10 +16,10 @@ def post(req, api):
             error: boolean
             message: string
     """
-    
+
     name = req.params['name']
     email = req.params['email']
-    comment = req.params['comment']
+    message = req.params['message']
 
     index = None
     error = None
@@ -28,17 +28,17 @@ def post(req, api):
         index = api.mongodb.insert(api, 'Contacts', {
             'name': name,
             'email': email,
-            'comment': comment
+            'message': message
         })
     except Exception as e:
         error = e
 
     if index:
-        req.send({
+        return {
             'error': False
-        })
+        }
     else:
-        req.send({
+        return {
             'error': True,
             'message': str(error)
-        })
+        }

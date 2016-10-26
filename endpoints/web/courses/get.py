@@ -8,36 +8,38 @@ def post(req, api):
 
     Input:
         id: string
+        col: [string]
 
     Output:
         error: boolean
         course: Object
     """
-
     name = None
 
     if 'name' in req.params:
         name = req.params['name']
     else:
         id = api.mongodb.toObjectId(req.params["id"])
-
+    
+    col = ["id", "name", "description", "url"]
     error = None
 
     try:
         if not name:
-            result = api.mongodb.select(api, 'courses', {'_id': id})
+            result = api.mongodb.select(api, 'courses', {'_id': id}, col)
         else:
-            result = api.mongodb.select(api, 'courses', {'name': name})
+            result = api.mongodb.select(api, 'courses', {'name': name}, col)
     except Exception as e:
+        print(e)
         error = e
 
     if not error:
-        req.send({
+        return {
             'error': False,
-            'course': str(result.next())
-        })
+            'course': result
+        }
     else:
-        req.send({
+        return {
             'error': True,
             'message': str(error)
-        })
+        }

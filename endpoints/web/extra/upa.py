@@ -20,23 +20,20 @@ def post(req, api):
             error: boolean
             message: string
     """
-    
+
     index = None
     error = None
-    
-    print(req.params)
-
     try:
         index = api.mongodb.insert(api, 'Upa', req.params)
     except Exception as e:
         error = e
 
     if index:
-        req.send({
+        return {
             'error': False
-        })
+        }
     else:
-        req.send({
+        return {
             'error': True,
             'message': str(error)
-        })
+        }

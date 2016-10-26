@@ -6,11 +6,11 @@ def post(req, api):
     """
     List all courses / courses by university
 
-    Input: 
+    Input:
         university: string
 
     Output:
-        error: boolean
+        error: booleanin req.params:
         courses: [Object]
     """
 
@@ -23,17 +23,17 @@ def post(req, api):
 
     try:
         for u in api.mongodb.select(api, 'courses', {'universities.name': university}):
-            courses.append(u) 
+            courses.append(u)
     except Exception as e:
         error = e
 
     if not error:
-        req.send({
+        return {
             'error': False,
             'courses': str(courses)
-        })
+        }
     else:
-        req.send({
+        return {
             'error': True,
             'message': str(error)
-        })
+        }
