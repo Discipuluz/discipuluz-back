@@ -1,5 +1,5 @@
 # Main lib
-apys ~= 0.4 
+apys ~= 0.5 
 
 # utils/mongodb.py
 pymongo == 3.3.0
