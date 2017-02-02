@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# coding: utf-8
+
 from pymongo import MongoClient
 from bson.objectid import ObjectId
 import datetime
