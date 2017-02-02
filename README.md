@@ -2,29 +2,29 @@
 Back End usado para o site e o bot da discipuluz!
 
 ## LINGUAGEM
-[Python 2.7](https://docs.python.org/2/tutorial/index.html)
+[Python 3.5+](https://docs.python.org/3/tutorial/index.html)
 
 ## BIBLIOTECAS
-* [pypolyback](https://github.com/seijihirao/pypolyback)
+* [apys](https://github.com/seijihirao/apys)
 
 ## BANCO DE DADOS
-[SQLite](https://www.sqlite.org/) - [Python-lib](https://docs.python.org/2.6/library/sqlite3.html)
+[MongoDB](https://www.mongodb.com/) - [Python-lib](https://api.mongodb.com/python/current/)
 
 ---
 
 ## INSTALAÇÃO
- 1. Instale o python 2.7
-     * Windows - [Link](https://www.python.org/download/releases/2.7/)
+ 1. Instale o python 3.5+
+     * Windows - [Link](https://www.python.org/)
      * Ubuntu - `sudo apt-get install python2`
      * Fedora - `sudo yum install python2`
      * Arch - `sudo pacman -S python2`
  2. Instale o PIP - gerenciador de bibliotcas do python
      * Windows - [Link](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pip)
-     * Ubuntu - `sudo apt-get install pip2`
-     * Fedora - `sudo yum install pip2`
-     * Arch - `sudo pacman -S pip2`
+     * Ubuntu - `sudo apt-get install pip`
+     * Fedora - `sudo yum install pip`
+     * Arch - `sudo pacman -S pip`
  3. Instale a(s) biblioteca(s) usando o PIP
-     * `pip2 install pypolyback`
+     * `pip install -r requirements.txt`
      
 ---
 
@@ -37,16 +37,16 @@ Back End usado para o site e o bot da discipuluz!
     server: {
         port: 'Porta de acesso, (padrão=8888)'
     },
-    url: {
-        bot: 'endereço para os endpoints do bot',
-        site: 'endereço para os endpoints do site'
-    }
+    mongodb: {
+        host: 'Mudar para localhost:27017, (padrão="db:27017")',
+        database: 'Banco de Dados, (padrão="discipuluz")'
+    },
 }
 ```
 
 ### Endpoints
 
-    site/ - pasta com endpoints acessados pelo site
+    web/ - pasta com endpoints acessados pelo site
     bot/ - pasta com endpoints acessados pelo bot
 
 ## BRANCHING
@@ -61,7 +61,7 @@ Back End usado para o site e o bot da discipuluz!
 
 ## EXECUÇÃO
 
-Execute `pypolyback` pelo terminal na pasta raizdo seu projeto
+Execute `apys -s` pelo terminal na pasta raiz do seu projeto
 
 ---
 
