@@ -22,7 +22,7 @@ async def post(req, api):
     email = req.params['from']
     text = req.params['content']
 
-    api.bot.notify(api, user_id, email, 'accepted')
+    await api.bot.notify(api, user_id, email, 'accepted')
 
     api.debug(user_id + ') User ' + email + ' send text: ' + text)
 
