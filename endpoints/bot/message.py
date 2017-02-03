@@ -1,6 +1,7 @@
 utils = [
-    'bot'
-    'regex'
+    'bot',
+    'regex',
+    'mongodb'
 ]
 
 def post(req, api):
@@ -22,11 +23,13 @@ def post(req, api):
     text = req.params['content']
 
     # TESTES, TODO: REMOVER
-    if api.regex.match(r'[a-zA-Z]test', text):
-        api.bot.message(api, user_id, email, 'Esse é um teste apenas!!')
+    if api.regex.match(r'(Conte-me sobre a )?Unicamp', text):
+        university = api.mongodb.select(api, 'universities', {'name': 'Unicamp'}, ['description', 'public'])
+        api.bot.message(api, user_id, email, university[0]['description'])
 
-    elif api.regex.match(r'(test2)+', text):
-        api.bot.message(api, user_id, email, 'Esse é outro teste apenas!!')
+    elif api.regex.match(r'(Conte-me sobre a )?Usp', text):
+        university = api.mongodb.select(api, 'universities', {'name': 'Usp'}, ['description', 'public'])
+        api.bot.message(api, user_id, email, university[0]['description'])
 
     return {
         'error': False
