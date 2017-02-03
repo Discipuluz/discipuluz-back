@@ -19,12 +19,13 @@ async def post(req, api):
     """
 
     user_id = req.params['id']
-    email = req.params['from']
+    email_from = req.params['from']
+    email_to = req.params['to']
     text = req.params['content']
 
-    await api.bot.notify(api, user_id, email, 'accepted')
+    await api.bot.notify(api, user_id, email_from, email_to, 'accepted')
 
-    api.debug(user_id + ') User ' + email + ' send text: ' + text)
+    api.debug(user_id + ') User ' + email_from + ' send text: ' + text)
 
     try :
         # MELHORES UNIVERSIDADES
@@ -37,7 +38,7 @@ async def post(req, api):
             str_universities = ''
             for university in universities:
                 str_universities += university['id'] + '\n'
-            await api.bot.message(api, user_id, email, str_universities)
+            await api.bot.message(api, user_id, email_from, str_universities)
             return {
                 'error': False
             }
@@ -51,7 +52,7 @@ async def post(req, api):
             sorted(universities, key=lambda u: u['score'])
             str_universities = ''
             str_universities += universities[0]['id']+ '\n'
-            await api.bot.message(api, user_id, email, str_universities)
+            await api.bot.message(api, user_id, email_from, str_universities)
             return {
                 'error': False
             }
@@ -67,7 +68,7 @@ async def post(req, api):
                 'error': False
             }
     except Exception as error:
-        await api.bot.notify(api, user_id, email, 'failed', {
-            'code': 00,
+        await api.bot.notify(api, user_id, email_from, email_to, 'failed', {
+            'code': 500,
             'description': str(error)
         })

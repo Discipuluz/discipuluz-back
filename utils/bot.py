@@ -21,13 +21,14 @@ async def message(api, user_id, email, text):
             api.debug(resp.status)
             api.debug(await resp.text())
 
-async def notify(api, user_id, email, event, error={}):
+async def notify(api, user_id, email_from, email_to, event, error={}):
     with aiohttp.ClientSession() as session:
-        async with session.post(api.config['bot']['url']['messages'],
+        async with session.post(api.config['bot']['url']['notifications'],
                         data=json.dumps({
                             'id': user_id,
-                            'from': email,
-                            'content': event,
+                            'from': email_from,
+                            'to': email_to,
+                            'event': event,
                             'reason': error
                         }),
                         headers={
