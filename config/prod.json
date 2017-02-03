@@ -19,5 +19,13 @@
       "tls": true,
       "username": "equipe@discipuluz.com",
       "password": "discipuluz"
+    },
+    "bot": {
+        "token": "cm9nZXIyOnlLMGFVN01EN09ZVjlmWEZDaXNl",
+        "url": {
+            "messages": "https://msging.net/messages",
+            "notifications": "https://msging.net/notifications",
+            "commands": "https://msging.net/commands"
+        }
     }
 }
