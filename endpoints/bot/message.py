@@ -28,7 +28,7 @@ async def post(req, api):
 
     try :
         # MELHORES UNIVERSIDADES
-        match = api.regex.match(r'(?i)melhores faculdades (.+)', text)
+        match = api.regex.search(r'(?i)melhores.+faculdades.+(.+)', text)
         if match:
             universities = api.mongodb.select(api, 'courses', {
                 'name': {'$elemMatch':{'$eq': match.group(1)}}
@@ -43,7 +43,7 @@ async def post(req, api):
             }
 
         # MELHOR UNIVERSIDADE
-        match = api.regex.match(r'(?i)melhor faculdade (.+)', text)
+        match = api.regex.search(r'(?i)melhor.+faculdade.+(.+)', text)
         if match:
             universities = api.mongodb.select(api, 'courses', {
                 'name': {'$elemMatch':{'$eq': match.group(1)}}
@@ -58,7 +58,7 @@ async def post(req, api):
             
 
         # AREA DE ATUACAO
-        match = api.regex.match(r'(?i)[aá]rea de atua[cç][ãa]o (.+)', text)
+        match = api.regex.search(r'(?i)[aá]rea.+atua[cç][ãa]o (.+)', text)
         if match:
             ocupation_area = api.mongodb.select(api, 'courses', {
                 'name':{'$elemMatch':{'$eq':match.group(1)}} #talvez nao seja 1
