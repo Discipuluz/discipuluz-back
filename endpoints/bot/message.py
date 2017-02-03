@@ -22,6 +22,8 @@ def post(req, api):
     email = req.params['from']
     text = req.params['content']
 
+    api.debug('User ' + email + ' send text: ' + text)
+
     # TESTES, TODO: REMOVER
     if api.regex.match(r'(Conte-me sobre a )?Unicamp', text):
         university = api.mongodb.select(api, 'universities', {'name': 'Unicamp'}, ['description', 'public'])
