@@ -48,7 +48,7 @@ async def post(req, api):
         }, ['universities'])[0]['universities']
         sorted(universities, key=lambda u: u['score'])
         str_universities = ''
-        str_universities += universities[0]['x  id']+ '\n'
+        str_universities += universities[0]['id']+ '\n'
         api.debug(str_universities)
         await api.bot.message(api, user_id, email, str_universities)
         return {
