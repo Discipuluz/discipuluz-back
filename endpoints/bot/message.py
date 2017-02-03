@@ -27,8 +27,9 @@ async def post(req, api):
     # MELHORES UNIVERSIDADES
     match = api.regex.match(r'(?i)^melhores faculdades (.+)$', text)
     if match:
-        courses = api.mongodb.select(api, 'courses', {'name': {'$elemMatch':{'$eq': match.group(1)}}}, ['universities'])
-        universities = courses[0]['universities']
+        universities = api.mongodb.select(api, 'courses', {
+            'name': {'$elemMatch':{'$eq': match.group(1)}}
+        }, ['universities'])[0]['universities']
         sorted(universities, key=lambda u: u['score'])
         str_universities = ''
         for university in universities:
@@ -44,7 +45,7 @@ async def post(req, api):
     if match:
         universities = api.mongodb.select(api, 'courses', {
             'name': {'$elemMatch':{'$eq': match.group(1)}}
-        })[0]['universities']
+        }, ['universities'])[0]['universities']
         sorted(universities, key=lambda u: u['score'])
         str_universities = ''
         str_universities += universities[0]['x  id']+ '\n'
