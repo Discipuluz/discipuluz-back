@@ -4,7 +4,7 @@ utils = [
     'mongodb'
 ]
 
-def post(req, api):
+async def post(req, api):
     """
     
     Input:
@@ -22,12 +22,13 @@ def post(req, api):
     email = req.params['from']
     text = req.params['content']
 
-    api.debug('User ' + email + ' send text: ' + text)
+    api.debug(user_id + ') User ' + email + ' send text: ' + text)
 
     # TESTES, TODO: REMOVER
     if api.regex.match(r'(Conte-me sobre a )?Unicamp', text):
-        university = api.mongodb.select(api, 'universities', {'name': 'Unicamp'}, ['description', 'public'])
-        api.bot.message(api, user_id, email, university[0]['description'])
+        university = api.mongodb.select(api, 'universities', {'name': {'$elemMatch':{'$eq': 'Unicamp'}}}, ['description', 'public'])
+        api.debug(university)
+        await api.bot.message(api, user_id, email, university[0]['description'])
 
     elif api.regex.match(r'(Conte-me sobre a )?Usp', text):
         university = api.mongodb.select(api, 'universities', {'name': 'Usp'}, ['description', 'public'])
