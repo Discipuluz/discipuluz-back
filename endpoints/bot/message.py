@@ -66,7 +66,7 @@ async def post(req, api):
             return {
                 'error': False
             }
-    except Exception as e:
+    except Exception as error:
         api.bot.notify(api, user_id, email, 'failed', {
             'code': 00,
             'description': str(error)
