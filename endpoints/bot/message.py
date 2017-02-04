@@ -31,7 +31,7 @@ async def post(req, api):
         # OI
         match = api.regex.match(r'(?i)(oi|ol[áa]|eae|blz|beleza)', text)
         if match:
-            str_oi = 'Oi, eu sou o Roger, seu cão... Não, perai... sua Ovelha Guia, e vou estar te ajudando nessa conversa. Adoro conversas, apenas me pergunte:\n\nmelhor universidade de X\nmelhores universidades de X\nárea de atuação de X'
+            str_oi = 'Oi, eu sou o Roger, seu cão... Não, perai... sua Ovelha Guia, e vou estar te ajudando nessa conversa. Adoro conversas, apenas me pergunte:\n\nmelhor universidade de Medicina\nmelhores universidades de Direito\nárea de atuação de Engenharia Civil'
             await api.bot.message(api, user_id, email_from, email_to, str_oi)
             return {
                 'error': False
