@@ -29,7 +29,7 @@ async def post(req, api):
 
     try :
         # MELHORES UNIVERSIDADES
-        match = api.regex.search(r'(?i)melhores.+(faculdades|universidades) +de +(.+)', text)
+        match = api.regex.search(r'(?i)melhores.+(faculdades|universidades) +de +([^!?.,]+)', text)
         api.debug(match)
         if match:
             api.debug(match.group(2).lower())
@@ -46,7 +46,7 @@ async def post(req, api):
             }
 
         # MELHOR UNIVERSIDADE
-        match = api.regex.search(r'(?i)melhor.+(faculdade|universidade) +de +(.+)', text)
+        match = api.regex.search(r'(?i)melhor.+(faculdade|universidade) +de +([^!?.,]+)', text)
         if match:
             universities = api.mongodb.select(api, 'courses', {
                 'name': {'$elemMatch':{'$eq': match.group(2).lower()}}
