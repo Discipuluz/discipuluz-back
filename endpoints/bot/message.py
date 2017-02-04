@@ -37,7 +37,7 @@ async def post(req, api):
                 'name': {'$elemMatch':{'$eq': match.group(2).lower()}}
             }, ['universities'])[0]['universities']
             sorted(universities, key=lambda u: u['score'])
-            str_universities = 'Eai tá pensando em fazer med mas quer as melhores né? Podexá que eu te falo. As melhores são: \n'
+            str_universities = 'Eai tá pensando em fazer ' + match.group(2).lower() + ' mas quer as melhores né? Podexá que eu te falo. As melhores são: \n\n'
             for university in universities:
                 str_universities += university['id'] + '\n'
             await api.bot.message(api, user_id, email_from, email_to, str_universities)
@@ -62,9 +62,9 @@ async def post(req, api):
         match = api.regex.search(r'(?i)[aá]rea +de +atua[cç][ãa]o +d[aeo] +([^!?.,]+)', text)
         if match:
             ocupations = api.mongodb.select(api, 'courses', {
-                'name':{'$elemMatch':{'$eq':match.group(1)}}
+                'name':{'$elemMatch':{'$eq':match.group(1).lower()}}
             }, ['ocupation_area'])[0]['ocupation_area']
-            str_ocupations = 'Deixa eu te falar um pouquinho mais das Áreas de Ocupação da "medicina". Dentre elas estão: \n'
+            str_ocupations = 'Deixa eu te falar um pouquinho mais das Áreas de Ocupação da ' + match.group(1).lower() + '. Dentre elas estão: \n\n'
             for ocupation in ocupations:
                 str_ocupations += ocupation + '\n'
             await api.bot.message(api, user_id, email_from, email_to, str_ocupations)
