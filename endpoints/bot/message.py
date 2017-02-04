@@ -29,30 +29,32 @@ async def post(req, api):
 
     try :
         # MELHORES UNIVERSIDADES
-        match = api.regex.search(r'(?i)melhores.+faculdades.+(.+)', text)
+        match = api.regex.search(r'(?i)melhores.+(faculdades|universidades) +de +(.+)', text)
+        api.debug(match)
         if match:
+            api.debug(match.group(2).lower())
             universities = api.mongodb.select(api, 'courses', {
-                'name': {'$elemMatch':{'$eq': match.group(1)}}
+                'name': {'$elemMatch':{'$eq': match.group(2).lower()}}
             }, ['universities'])[0]['universities']
             sorted(universities, key=lambda u: u['score'])
             str_universities = ''
             for university in universities:
                 str_universities += university['id'] + '\n'
-            await api.bot.message(api, user_id, email_from, str_universities)
+            await api.bot.message(api, user_id, email_from, email_to, str_universities)
             return {
                 'error': False
             }
 
         # MELHOR UNIVERSIDADE
-        match = api.regex.search(r'(?i)melhor.+faculdade.+(.+)', text)
+        match = api.regex.search(r'(?i)melhor.+(faculdades|universidades) +de +(.+)', text)
         if match:
             universities = api.mongodb.select(api, 'courses', {
-                'name': {'$elemMatch':{'$eq': match.group(1)}}
+                'name': {'$elemMatch':{'$eq': match.group(2).lower()}}
             }, ['universities'])[0]['universities']
             sorted(universities, key=lambda u: u['score'])
             str_universities = ''
             str_universities += universities[0]['id']+ '\n'
-            await api.bot.message(api, user_id, email_from, str_universities)
+            await api.bot.message(api, user_id, email_from, email_from, str_universities)
             return {
                 'error': False
             }
@@ -67,8 +69,23 @@ async def post(req, api):
             return {
                 'error': False
             }
+
+        api.error('Message not implemented: ' + text)
+
+        await api.bot.message(api, user_id, email_from, email_to, 
+            'Desculpe não entendi, você pode repetir de uma maneira diferente?')
+
+        await api.bot.notify(api, user_id, email_from, email_to, 'failed', {
+            'code': 404,
+            'description': 'Message not implemented'
+        })
     except Exception as error:
+        api.error(str(error))
         await api.bot.notify(api, user_id, email_from, email_to, 'failed', {
             'code': 500,
             'description': str(error)
         })
+
+    return {
+        'error': True
+    }

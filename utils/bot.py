@@ -4,13 +4,13 @@
 import aiohttp
 import json
 
-async def message(api, user_id, email, text):
+async def message(api, user_id, email_from, email_to, text):
     with aiohttp.ClientSession() as session:
-        await notify(api, user_id, email, 'dispatched')
+        await notify(api, user_id, email_from, email_to, 'dispatched')
         async with session.post(api.config['bot']['url']['messages'],
                         data=json.dumps({
                             'id': user_id,
-                            'to': email,
+                            'to': email_from,
                             'type': 'text/plain',
                             'content': text
                         }),
