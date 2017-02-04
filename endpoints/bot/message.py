@@ -37,7 +37,7 @@ async def post(req, api):
                 'name': {'$elemMatch':{'$eq': match.group(2).lower()}}
             }, ['universities'])[0]['universities']
             sorted(universities, key=lambda u: u['score'])
-            str_universities = ''
+            str_universities = 'Eai tá pensando em fazer med mas quer as melhores né? Podexá que eu te falo. As melhores são: \n'
             for university in universities:
                 str_universities += university['id'] + '\n'
             await api.bot.message(api, user_id, email_from, email_to, str_universities)
@@ -52,8 +52,7 @@ async def post(req, api):
                 'name': {'$elemMatch':{'$eq': match.group(2).lower()}}
             }, ['universities'])[0]['universities']
             sorted(universities, key=lambda u: u['score'])
-            str_universities = ''
-            str_universities += universities[0]['id']+ '\n'
+            str_universities = 'Boa! Quando se trata do nosso futuro a gente busca sempre a melhor, no curso ' + match.group(2).lower() + ' a melhor Universidade é a ' + universities[0]['id']
             await api.bot.message(api, user_id, email_from, email_from, str_universities)
             return {
                 'error': False
@@ -61,11 +60,15 @@ async def post(req, api):
             
 
         # AREA DE ATUACAO
-        match = api.regex.search(r'(?i)[aá]rea.+atua[cç][ãa]o (.+)', text)
+        match = api.regex.search(r'(?i)[aá]rea +de +atua[cç][ãa]o +d[aeo] +([^!?.,]+)', text)
         if match:
-            ocupation_area = api.mongodb.select(api, 'courses', {
+            ocupations = api.mongodb.select(api, 'courses', {
                 'name':{'$elemMatch':{'$eq':match.group(1)}} #talvez nao seja 1
-            }, ['ocupation_area'])[0]['']
+            }, ['ocupation_area'])[0]['ocupation_area']
+            str_ocupations = ''
+            for ocupation in ocupations:
+                str_ocupations += ocupation + '\n'
+            await api.bot.message(api, user_id, email_from, email_to, str_ocupations)
             return {
                 'error': False
             }
