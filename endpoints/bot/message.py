@@ -44,7 +44,7 @@ async def post(req, api):
             return {
                 'error': False
             }
-
+            
         # MELHOR UNIVERSIDADE
         match = api.regex.search(r'(?i)melhor.+(faculdade|universidade) +de +([^!?.,]+)', text)
         if match:
@@ -57,15 +57,14 @@ async def post(req, api):
             return {
                 'error': False
             }
-            
 
         # AREA DE ATUACAO
         match = api.regex.search(r'(?i)[aá]rea +de +atua[cç][ãa]o +d[aeo] +([^!?.,]+)', text)
         if match:
             ocupations = api.mongodb.select(api, 'courses', {
-                'name':{'$elemMatch':{'$eq':match.group(1)}} #talvez nao seja 1
+                'name':{'$elemMatch':{'$eq':match.group(1)}}
             }, ['ocupation_area'])[0]['ocupation_area']
-            str_ocupations = ''
+            str_ocupations = 'Deixa eu te falar um pouquinho mais das Áreas de Ocupação da "medicina". Dentre elas estão: \n'
             for ocupation in ocupations:
                 str_ocupations += ocupation + '\n'
             await api.bot.message(api, user_id, email_from, email_to, str_ocupations)

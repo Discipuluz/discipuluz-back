@@ -47,7 +47,8 @@ Back End usado para o site e o bot da discipuluz!
 ### Endpoints
 
     web/ - pasta com endpoints acessados pelo site
-    bot/ - pasta com endpoints acessados pelo bot
+    bot/ - pasta com endpoints acessados pelos bots
+    infra/ - pasta com endpoints para auxílio no servidor (como popular bancos)
 
 ## BRANCHING
 
