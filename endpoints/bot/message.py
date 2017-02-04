@@ -44,7 +44,7 @@ async def post(req, api):
             return {
                 'error': False
             }
-            
+
         # MELHOR UNIVERSIDADE
         match = api.regex.search(r'(?i)melhor.+(faculdade|universidade) +de +([^!?.,]+)', text)
         if match:
@@ -75,7 +75,7 @@ async def post(req, api):
         api.error('Message not implemented: ' + text)
 
         await api.bot.message(api, user_id, email_from, email_to, 
-            'Desculpe não entendi, você pode repetir de uma maneira diferente?')
+            'Eita, não entendi .-. , você poderia me perguntar de uma forma diferente ? Nós ovelhas temos um vocabulário limitado.')
 
         await api.bot.notify(api, user_id, email_from, email_to, 'failed', {
             'code': 404,
