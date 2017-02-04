@@ -28,9 +28,17 @@ async def post(req, api):
     api.debug(user_id + ') User ' + email_from + ' send text: ' + text)
 
     try :
+        # OI
+        match = api.regex.match(r'(?i)(oi|ol[áa]|eae|blz|beleza)', text)
+        if match:
+            str_oi = 'Oi, eu sou o Roger, seu cão... Não, perai... sua Ovelha Guia, e vou estar te ajudando nessa conversa. Adoro conversas, apenas me pergunte:\n\nmelhor universidade de X\nmelhores universidades de X\nárea de atuação de X'
+            await api.bot.message(api, user_id, email_from, email_to, str_oi)
+            return {
+                'error': False
+            }
+
         # MELHORES UNIVERSIDADES
         match = api.regex.search(r'(?i)melhores.+(faculdades|universidades) +de +([^!?.,]+)', text)
-        api.debug(match)
         if match:
             api.debug(match.group(2).lower())
             universities = api.mongodb.select(api, 'courses', {
